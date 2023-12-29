@@ -1,0 +1,30 @@
+.parent-container {
+    left: 0;
+}
+
+.elements {
+    list-style: none;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 90px;
+    /* padding: 10px; */
+    background-color: yellow;   
+}
+
+.navigation2 {
+    position: absolute;
+    top: 90px;
+    left: 0%;
+    width: 100%;
+    height: 900px;
+    padding: 10px;
+    background-color: orange;   
+}
