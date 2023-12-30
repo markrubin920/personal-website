@@ -37,7 +37,7 @@ const Navigation = () => {
                 </div>
                 {/* Top Right Navigation Elements */}
                 <div className="nav-list">
-                    <NavLink to = "/experience" className="nav-page">Experience</NavLink>
+                    <NavLink to = "/experience" className="nav-page">Experiences</NavLink>
                     <NavLink to = "/projects" className="nav-page">Projects</NavLink>
                     <NavLink to = "/about" className="nav-page">About</NavLink>
                     <NavLink to = "/contact" className="nav-page">Contact</NavLink>

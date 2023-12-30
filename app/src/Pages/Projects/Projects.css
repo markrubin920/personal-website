@@ -1,0 +1,25 @@
+html, body {
+    background-color: white;
+}
+
+.app {
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.nav-background {
+    min-height: fit-content;
+    height: 12vh;
+    background-color: #253551;
+}
+
+.ec {
+    position: relative;
+    height: 100vh;
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+}
