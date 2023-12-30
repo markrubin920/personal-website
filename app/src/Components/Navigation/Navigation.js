@@ -38,8 +38,8 @@ const Navigation = () => {
                 {/* Top Right Navigation Elements */}
                 <div className="nav-list">
                     <NavLink to = "/experience" className="nav-page">Experience</NavLink>
-                    <NavLink to = "/extracurriculars" className="nav-page">Extracurriculars</NavLink>
                     <NavLink to = "/projects" className="nav-page">Projects</NavLink>
+                    <NavLink to = "/about" className="nav-page">About</NavLink>
                     <NavLink to = "/contact" className="nav-page">Contact</NavLink>
                     <NavLink to = "/resume" className="resume">Resume</NavLink> {/* Need to make a download link */}
                 </div>
