@@ -1,4 +1,22 @@
-.logo-div {
+/* body, html {
+  margin: 0;
+  padding: 0;
+} */
+
+.nav-bar {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+    /* padding: 1rem 2rem; */
+    width: 96vw;
+    /* background-color: green; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    /* background-color: green; */
+  }
+
+ .logo-div {
     position: absolute;
     left: 1.5%;
     top: 0%;
@@ -9,12 +27,14 @@
     justify-content: left;
 }
 
+
 .logo {
     font-family: Tahoma;
     font-size: 22px;
     color: white;
     text-decoration: none;
 }
+
 
 .nav-list {
     position: absolute;

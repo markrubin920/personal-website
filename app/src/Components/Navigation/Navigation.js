@@ -30,7 +30,7 @@ const Navigation = () => {
     {
         return (
             // Top bar outline
-            <div>
+            <header className='nav-bar'>
                 {/* Top Left Logo */}
                 <div className='logo-div'>
                     <NavLink to = "/home" className="logo">Mark Rubin</NavLink>
@@ -43,7 +43,7 @@ const Navigation = () => {
                     <NavLink to = "/contact" className="nav-page">Contact</NavLink>
                     <NavLink to = "/resume" className="nav-page">Resume</NavLink> {/* Need to make a download link */}
                 </div>
-            </div>
+            </header>
         )
     }
 
