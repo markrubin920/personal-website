@@ -15,8 +15,9 @@
     position: absolute;
     display: flex;
     /* position: relative; */
-    bottom: 1.5%;
-    left: 3%;
+    bottom: 20%;
+    left: 4%;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 .hello {
@@ -24,6 +25,36 @@
     color: white;
     font-weight: bold;
     font-size: 55px;
+    text-shadow:
+                -2px -2px 0 #000,  /* Left and top shadow */
+                 2px -2px 0 #000,  /* Right and top shadow */
+                -2px  2px 0 #000,  /* Left and bottom shadow */
+                 2px  2px 0 #000;  /* Right and bottom shadow */
+}
+
+.about-button-div {
+    background-color: white;
+    position: absolute;
+    bottom: -10vh;
+    width: 15vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+.about-button-div a {
+    font-family: Tahoma;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.about-button-div:hover {
+    background-color: rgba(255, 255, 255, .75);
 }
 
 
@@ -32,16 +63,28 @@
     width: 100%;
     background-color: #E0E0DB;
     display: flex;
+    align-content: center;
+    justify-items: center;
+    
+}
+
+.about-div {
+    display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 .about-text {
+    align-self: center;
     line-height: 1.6;
     color: black;
     font-weight: bold;
-    font-size: 34px;
+    font-size: 28px;
     padding: 100px;
+    padding-bottom: 150px;
+    
 }
 
 .exp-container {
@@ -67,6 +110,7 @@
 }
 
 .writing {
+    width: 100%;
     display: flex;
     align-items: baseline;
     padding-top: 8%;
@@ -95,10 +139,13 @@
 .exp-subtitle {
     position: absolute;
     display: flex;
+    width: 50%;
     top: 14vh;
     left: 6vw;
     height: 10vh;
     color: grey;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 .learn-more {
@@ -119,6 +166,10 @@
     color: white;
     text-decoration: none;
     padding: 10px;
+}
+
+.learn-more:hover {
+    background-color: rgba(37, 53, 81,.7);
 }
 
 .ec-container {
@@ -146,6 +197,7 @@
 .ec-subtitle {
     position: absolute;
     display: flex;
+    width: 50%;
     top: 14vh;
     left: 46vw;
     height: 10vh;
@@ -165,16 +217,23 @@
 }
 
 .quote-text {
+    text-align: center;
     line-height: 1.6;
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 34px;
     padding: 100px;
+
+    text-shadow:
+                -2px -2px 0 #000,  /* Left and top shadow */
+                 2px -2px 0 #000,  /* Right and top shadow */
+                -2px  2px 0 #000,  /* Left and bottom shadow */
+                 2px  2px 0 #000;  /* Right and bottom shadow */
 }
 
 .contact-container {
     position: relative;
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     background-color: white;
     display: grid;
@@ -234,3 +293,12 @@
     justify-content: center;
 }
 
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

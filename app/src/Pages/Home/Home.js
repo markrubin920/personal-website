@@ -1,4 +1,5 @@
 import "./Home.css";
+import Bottom from "../../Components/Bottom Container/Bottom";
 import Navigation from "../../Components/Navigation/Navigation";
 import Fiserv from "../../Media/Fiserv-Picture.jpg"
 import Workshop from "../../Media/Cloud-Workshop-Picture.jpg"
@@ -14,22 +15,26 @@ const Home = () =>
                     <h2 className="hello">
                         Hi, my name is<br></br>Mark Rubin
                     </h2>
+                    <div className="about-button-div"><NavLink to = "/about">About Me</NavLink></div>
                 </div>
             </section>
             <section className="about-container">
+                <div className="about-div">
                 <p className="about-text">
-                    BLA BLA BLA
+                A young man at Princeton University, deeply immersed in the realm of computer science, is a picture of determination and intelligence. His days are filled with coding, algorithmic challenges, and exploring the latest in artificial intelligence. He's passionate about technology's potential and dreams of innovating in the tech world.
                 </p>
+                </div>
             </section>
             <section className="exp-container">
                 <div className="experience-div-outer">
                     <div className="writing">
                         <div className="exp-title"><h1>Work Experience</h1> </div>
-                        <div className="exp-subtitle"><h1>BLA BLA BLA experience</h1> </div>
+                        <div className="exp-subtitle"><h1>
+In my software engineering internships, I've honed my coding and problem-solving skills, learned to navigate complex projects, and gained insights into the software development lifecycle and industry best practices.</h1> </div>
                         <div className="learn-more"><NavLink to = "/experience">Learn More</NavLink></div>
                     </div>
                     <div className="pic-div">
-                        <img src={Fiserv} alt = "Fiserv Internship Picture" className="exp-pic"/>
+                        <img src={Fiserv} alt = "Fiserv Internship" className="exp-pic"/>
                     </div>
                 </div>
             </section>
@@ -41,14 +46,15 @@ const Home = () =>
                     </div>
                     <div className="writing">
                         <div className="ec-title"><h1>Extracurricular Activities</h1> </div>
-                        <div className="ec-subtitle"><h1>BLA BLA BLA Activities</h1> </div>
+                        <div className="ec-subtitle"><h1>
+My extracurricular activities have sharpened my programming skills, enhanced my public speaking, and refined my thinking. They've taught me to approach problems creatively, communicate ideas effectively, and continuously adapt and learn, enriching both my technical and interpersonal abilities.</h1> </div>
                         <div className="learn-more"><NavLink to = "/extracurriculars">Learn More</NavLink></div>
                     </div>
                 </div>
             </section>
             <section className="quote-section">
                 <p className="quote-text">
-                    BLA BLA BLA
+                Mark is an extraordinary programmer, consistently showcasing exceptional skill, innovative thinking, and advanced problem-solving abilities. His coding projects reflect a deep understanding of complex concepts and a commitment to excellence in software development.
                 </p>
             </section>
             <section className="contact-container">
@@ -65,7 +71,7 @@ const Home = () =>
                 </div>
             </section>
             <section className="footer-container">
-                {/* <BottomContainer /> */}
+                <Bottom />
             </section>
         </div>
     )

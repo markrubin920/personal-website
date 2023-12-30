@@ -11,14 +11,12 @@
     padding: 2vw;
     /* padding: 1rem 2rem; */
     width: 96vw;
-    /* background-color: green; */
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-    /* background-color: green; */
+    animation: fadeIn 1.5s ease-in-out;
   }
 
  .logo-div {
     position: absolute;
-    left: 1.5%;
+    left: 4%;
     top: 0%;
     height: 100%;
     width: 30%;
@@ -33,6 +31,12 @@
     font-size: 22px;
     color: white;
     text-decoration: none;
+
+    text-shadow:
+                -2px -2px 0 #000,  /* Left and top shadow */
+                 2px -2px 0 #000,  /* Right and top shadow */
+                -2px  2px 0 #000,  /* Left and bottom shadow */
+                 2px  2px 0 #000;  /* Right and bottom shadow */
 }
 
 
@@ -52,5 +56,16 @@
     font-size: 22px;
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 13px;
+
+    text-shadow:
+                -2px -2px 0 #000,  /* Left and top shadow */
+                 2px -2px 0 #000,  /* Right and top shadow */
+                -2px  2px 0 #000,  /* Left and bottom shadow */
+                 2px  2px 0 #000;  /* Right and bottom shadow */
+}
+
+.nav-page:hover {
+  background-color: #000;
+  border-radius: 10%;
 }
