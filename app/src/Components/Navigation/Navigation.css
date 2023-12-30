@@ -1,17 +1,15 @@
-/* body, html {
-  margin: 0;
-  padding: 0;
-} */
-
 .nav-bar {
     position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2vw;
-    /* padding: 1rem 2rem; */
     width: 96vw;
     animation: fadeIn 1.5s ease-in-out;
+    margin-bottom: 50px;
+
+    min-height: 5vh;
+    max-height: 10vh;
   }
 
  .logo-div {
@@ -25,18 +23,18 @@
     justify-content: left;
 }
 
-
 .logo {
     font-family: Tahoma;
-    font-size: 22px;
+    font-size: 25px;
     color: white;
     text-decoration: none;
 
     text-shadow:
-                -2px -2px 0 #000,  /* Left and top shadow */
-                 2px -2px 0 #000,  /* Right and top shadow */
-                -2px  2px 0 #000,  /* Left and bottom shadow */
-                 2px  2px 0 #000;  /* Right and bottom shadow */
+                -1px -1px 0 #000,  /* Left and top shadow */
+                 1px -1px 0 #000,  /* Right and top shadow */
+                -1px  1px 0 #000,  /* Left and bottom shadow */
+                 1px  1px 0 #000;  /* Right and bottom shadow */
+
 }
 
 
@@ -53,19 +51,44 @@
 
 .nav-page {
     font-family: Tahoma;
-    font-size: 22px;
+    font-size: 25px;
     color: white;
     text-decoration: none;
     padding: 13px;
 
     text-shadow:
-                -2px -2px 0 #000,  /* Left and top shadow */
-                 2px -2px 0 #000,  /* Right and top shadow */
-                -2px  2px 0 #000,  /* Left and bottom shadow */
-                 2px  2px 0 #000;  /* Right and bottom shadow */
+                -1px -1px 0 #000,  /* Left and top shadow */
+                 1px -1px 0 #000,  /* Right and top shadow */
+                -1px  1px 0 #000,  /* Left and bottom shadow */
+                 1px  1px 0 #000;  /* Right and bottom shadow */
 }
 
 .nav-page:hover {
   background-color: #000;
   border-radius: 10%;
+  transition: background-color .7s ease;
+}
+
+.resume {
+  font-family: Tahoma;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  padding: 13px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: #000 2px solid;
+  border-radius: 15%;
+
+  text-shadow:
+                -1px -1px 0 #000,  /* Left and top shadow */
+                 1px -1px 0 #000,  /* Right and top shadow */
+                -1px  1px 0 #000,  /* Left and bottom shadow */
+                 1px  1px 0 #000;  /* Right and bottom shadow */
+}
+
+.resume:hover {
+background-color: #000;
+border-radius: 10%;
+transition: background-color .7s ease;
 }

@@ -1,0 +1,17 @@
+.nav-background {
+    min-height: fit-content;
+    height: 12vh;
+    background-color: #253551;
+}
+
+.exp {
+    position: relative;
+    /* top: 12vh; */
+    height: 80vh;
+    width: 100%;
+    background-color: #E0E0DB;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+}
+

@@ -41,7 +41,7 @@ const Navigation = () => {
                     <NavLink to = "/extracurriculars" className="nav-page">Extracurriculars</NavLink>
                     <NavLink to = "/projects" className="nav-page">Projects</NavLink>
                     <NavLink to = "/contact" className="nav-page">Contact</NavLink>
-                    <NavLink to = "/resume" className="nav-page">Resume</NavLink> {/* Need to make a download link */}
+                    <NavLink to = "/resume" className="resume">Resume</NavLink> {/* Need to make a download link */}
                 </div>
             </header>
         )
