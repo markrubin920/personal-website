@@ -4,13 +4,11 @@
 
 .top-container {
     position: relative;
-    /* top: 0px; */
     height: 80vh;
     width: 100%;
     background-image: url("../../Media/Blair-Arch.jpg");
     background-size: cover;
     background-position: center;
-    /* padding: 2rem; */
 }
 
 .tc-writing {
@@ -47,7 +45,7 @@
 }
 
 .exp-container {
-    height: 60vh;
+    height: 55vh;
     width: 100%;
     background-color: white;
 }
@@ -58,22 +56,17 @@
     width: 100%;
     display: grid;
     grid-template-columns: 60% 40%;
-    /* align-items: center;
-    justify-content: center; */
 }
 
-.experience-pic-div {
+.pic-div {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: aqua; */
     height: 100%;
     width: 100%;
-    /* display: grid; */
-    /* grid-template-columns: 70% 30%; */
 }
 
-.exp-writing {
+.writing {
     display: flex;
     align-items: baseline;
     padding-top: 8%;
@@ -83,50 +76,161 @@
 }
 
 .exp-pic {
-    height: auto;
-    width: 50%;
+    position: absolute;
+    top: 7vh;
+    height: 40vh;
+    width: auto;
+    max-width: 100%;
     border: black 5px solid;
 }
 
 .exp-title {
     position: absolute;
     display: flex;
-    /* position: relative; */
     top: 7vh;
     left: 6vw;
     height: 6vh;
-    /* left: 3%; */
 }
 
 .exp-subtitle {
     position: absolute;
     display: flex;
-    /* position: relative; */
     top: 14vh;
     left: 6vw;
     height: 10vh;
-    /* left: 3%; */
+    color: grey;
 }
 
-.learn-more{
+.learn-more {
+    background-color: #253551;
+    position: absolute;
+    /* padding-top: 10px; */
+    bottom: 9vh;
+    width: 25vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.learn-more a {
     font-family: Tahoma;
     font-size: 22px;
     color: white;
     text-decoration: none;
-    border: black 4px solid;
-    background-color: #253551;
-    
     padding: 10px;
-    
-    /* position: absolute;
-    display: flex;
-    /* position: relative; */
-    /* bottom: 25%;
-    width: 10vw;
-    height: 7vh; */
-    /* left: 3%; */
-    /* border: black 2px solid;
-    background-color: #253551;
-    text-decoration: none;
-    color: white; */
 }
+
+.ec-container {
+    height: 55vh;
+    width: 100%;
+    background-color: white;
+}
+
+.ec-div-outer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.ec-title {
+    position: absolute;
+    display: flex;
+    top: 7vh;
+    left: 46vw;
+    height: 6vh;
+}
+
+.ec-subtitle {
+    position: absolute;
+    display: flex;
+    top: 14vh;
+    left: 46vw;
+    height: 10vh;
+    color: grey;
+}
+
+.quote-section {
+    position: relative;
+    height: 55vh;
+    width: 100%;
+    background-image: url("../../Media/Blair-Arch.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text {
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 34px;
+    padding: 100px;
+}
+
+.contact-container {
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.get-in-touch {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gt-text {
+    position: absolute;
+    line-height: 1.6;
+    color: black;
+    font-weight: normal;
+    font-size: 35px;
+    padding-bottom: 20vh;
+}
+
+.contact-list {
+    list-style: none;
+    line-height: 2;
+}
+
+.contact-info {
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    /* left: 0vh; */
+    padding-left: 5vw;
+    padding-bottom: 12vh;
+}
+
+.contact {
+    color: black;
+    text-decoration: none;
+}
+
+.contact a {
+    font-family: Tahoma;
+    font-size: 22px;
+    color: black;
+    /* text-decoration: none; */
+    padding: 10px;
+}
+
+.footer-container {
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(32, 28, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
