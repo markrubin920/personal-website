@@ -1,118 +1,120 @@
 .bg {
-    position: absolute;
-    width: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
+  position: absolute;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .nav-background {
-    min-height: fit-content;
-    height: 12vh;
-    background-color: #253551;
+  min-height: fit-content;
+  height: 12vh;
+  background-color: #253551;
 }
 
 .exp-header {
-    position: relative;
-    padding-top: 2vh;
-    padding-bottom: 1vh;
-    height: 9vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+  height: 9vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .exp-header-h1 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .exp {
-    position: relative;
-    height: 210vh;
-    width: 100%;
-    display: flex;
-    align-content: center;
-    justify-items: center;
+  position: relative;
+  height: 210vh;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-items: center;
 }
 
 .rows {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .columns {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  z-index: 100;
 }
 
 .column {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pic {
-    position: absolute;
-    top: 5vh;
-    height: 40vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  top: 5vh;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
 }
 
 .date {
-    position: absolute;
-    top: 45vh;
-    width: 100%;
-    height: 5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  top: 45vh;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .company {
-    position: absolute;
-    top: 50vh;
-    width: 100%;
-    height: 5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  top: 50vh;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .desc {
-    position: absolute;
-    top: 55vh;
-    width: 100%;
-    height: 5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  top: 55vh;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .learn {
-    position: absolute;
-    top: 60vh;
-    width: 100%;
-    height: 5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  top: 60vh;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .link {
-    color: #253551;
+  color: #253551;
 }
 
 .fi-image {
-    height: 100%;
-    width: auto;
+  height: 100%;
+  width: auto;
 }
