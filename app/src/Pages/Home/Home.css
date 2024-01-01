@@ -22,7 +22,8 @@ body {
 .tc-writing {
   position: absolute;
   display: flex;
-  /* position: relative; */
+  height: 22vh;
+  width: 100vw;
   bottom: 20%;
   left: 4%;
   animation: fadeIn 1.5s ease-in-out;
@@ -32,7 +33,7 @@ body {
   line-height: 1.6;
   color: white;
   font-weight: bold;
-  font-size: 55px;
+  font-size: 300%;
   text-shadow: -2px -2px 0 #000, /* Left and top shadow */ 2px -2px 0 #000,
     /* Right and top shadow */ -2px 2px 0 #000,
     /* Left and bottom shadow */ 2px 2px 0 #000; /* Right and bottom shadow */
@@ -43,19 +44,22 @@ body {
   position: absolute;
   bottom: -10vh;
   width: 15vw;
+  min-width: fit-content;
+  min-height: fit-content;
   height: 5vw;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 5vw;
   transition: background-color 0.3s;
-  /* padding-top: 10vh; */
+  padding-top: 1vh;
+  padding-bottom: 1vh;
   /* margin-top: 5vh; */
 }
 
 .about-button-div a {
   font-family: Tahoma;
-  font-size: 24px;
+  font-size: 175%;
   color: black;
   font-weight: bold;
   text-decoration: none;

@@ -47,7 +47,9 @@ const Experience = () => {
 
       <section className="exp-header">
         <div className="exp-header-div">
-          <h1 className="exp-header-h1">Jobs, Activities, and Education</h1>
+          <h1 className="exp-header-h1">
+            Employment, Activities, and Education
+          </h1>
         </div>
       </section>
 

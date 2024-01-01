@@ -11,7 +11,7 @@ body {
 
 .projects-a {
   /* position: relative; */
-  height: 40vh;
+  height: 45vh;
   background-color: white;
   width: 100%;
   display: flex;
@@ -31,20 +31,32 @@ body {
   width: 100%;
   /* background-color: aqua; */
   display: grid;
-  grid-template-rows: 85% 15%;
+  grid-template-rows: 33% 33% 34%;
 }
 
 .title-a {
-  padding-top: 5%;
   width: 100%;
   text-align: center;
   font-size: 3.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .link-a {
   width: 100%;
   text-align: center;
   font-size: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .description-div {
@@ -72,7 +84,7 @@ body {
 }
 
 .projects-b {
-  height: 40vh;
+  height: 45vh;
   background-color: #e0e0db;
   width: 100%;
   display: flex;

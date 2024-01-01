@@ -74,7 +74,7 @@
   padding: 13px;
   margin-left: 10px;
   margin-right: 10px;
-  border: black 2px solid;
+  border: white 2px solid;
   border-radius: 15%;
   transition: background-color 0.3s;
 
@@ -87,4 +87,30 @@
   background-color: #000;
   border-radius: 10%;
   transition: background-color 0.7s ease;
+}
+
+.nav-icon-div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 8vh;
+  width: 20vw;
+  padding-right: 2vw;
+  display: flex;
+  justify-content: right;
+}
+
+.button-bkg {
+  background-color: transparent;
+}
+
+.nav-icon {
+  height: 100%;
+  width: auto;
+}
+
+.vertical-nav-bar {
+  height: 100%;
+  width: 90%;
+  background-color: green;
 }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import NavIcon from "../../Media/Hamburger-Menu-Icon.png";
 import "./Navigation.css";
 
 // Build a nav bar for the top of the screen
@@ -59,39 +60,18 @@ const Navigation = () => {
   } else if (isMenuOpen) {
     // Fix this so it's vertical
     return (
-      <h1>Not done</h1>
-
-      // <div>
-      // <button className='nav-logo' onClick={toggleMenu}>
-      //     Nav Button
-      //     {/* <img src=""></img> Need a logo element*/ }
-      // </button>
-      // <nav className="Nav-bar-outer">
-      //     <div className = "Nav-bar">
-      //         <ul className = "Nav-list">
-      //             <li className="Nav-page">
-      //                 <NavLink to = "/home">Home</NavLink>
-      //             </li>
-      //             <li className="Nav-page">
-      //                 <NavLink to = "/experience">Experience</NavLink>
-      //             </li>
-      //             <li className="Nav-page">
-      //                 <NavLink to = "/extracurriculars">Extracurriculars</NavLink>
-      //             </li>
-      //             <li className="Nav-page">
-      //                 <NavLink to = "/about">About</NavLink>
-      //             </li>
-      //             <li className="Nav-page">
-      //                 <NavLink to = "/contact">Contact</NavLink>
-      //             </li>
-      //         </ul>
-      //     </div>
-      // </nav>
-      // </div>
+      <div className="vertical-nav-bar">
+        <button onClick={toggleMenu}>Escape</button>
+      </div>
     );
   } else {
-    // Fix it to have the right logo
-    return <h1>Not done2</h1>;
+    return (
+      <div className="nav-icon-div">
+        <button onClick={toggleMenu} className="button-bkg">
+          <img src={NavIcon} alt="Navigation icon" className="nav-icon"></img>
+        </button>
+      </div>
+    );
   }
 };
 
