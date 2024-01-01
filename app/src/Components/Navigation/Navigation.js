@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import NavIcon from "../../Media/Hamburger-Menu-Icon.png";
+import XIcon from "../../Media/X-icon.png";
 import "./Navigation.css";
 
 // Build a nav bar for the top of the screen
@@ -52,16 +53,39 @@ const Navigation = () => {
           </NavLink>
           <NavLink to="/resume" className="resume">
             Resume
-          </NavLink>{" "}
+          </NavLink>
           {/* Need to make a download link */}
         </div>
       </header>
     );
   } else if (isMenuOpen) {
-    // Fix this so it's vertical
     return (
       <div className="vertical-nav-bar">
-        <button onClick={toggleMenu}>Escape</button>
+        <button onClick={toggleMenu} className="vnav-button">
+          <img src={XIcon} alt="ex" className="nav-icon-exit" />
+        </button>
+        <div className="nav-v-list">
+          <ul className="nav-v-list-ul">
+            <NavLink to="/home" className="nl">
+              <li className="nav-v-list-li">Home</li>
+            </NavLink>
+            <NavLink to="/experience" className="nl">
+              <li className="nav-v-list-li">Experiences</li>
+            </NavLink>
+            <NavLink to="/projects" className="nl">
+              <li className="nav-v-list-li">Projects</li>
+            </NavLink>
+            <NavLink to="/about" className="nl">
+              <li className="nav-v-list-li">About</li>
+            </NavLink>
+            <NavLink to="/contact" className="nl">
+              <li className="nav-v-list-li">Contact</li>
+            </NavLink>
+            <NavLink to="/resume" className="nl">
+              <li className="nav-v-list-li">Resume</li>
+            </NavLink>
+          </ul>
+        </div>
       </div>
     );
   } else {
