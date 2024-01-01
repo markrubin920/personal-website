@@ -1,25 +1,81 @@
-html, body {
-    background-color: white;
-}
-
-.app {
-    position: absolute;
-    overflow-y: auto;
-    overflow-x: hidden;
+html,
+body {
+  background-color: white;
 }
 
 .nav-background {
-    min-height: fit-content;
-    height: 12vh;
-    background-color: #253551;
+  min-height: fit-content;
+  height: 8vh;
+  background-color: #253551;
 }
 
-.ec {
-    position: relative;
-    height: 100vh;
-    background-color: aqua;
-    width: 100%;
-    display: flex;
-    align-content: center;
-    justify-items: center;
+.projects-a {
+  /* position: relative; */
+  height: 40vh;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-items: center;
+}
+
+.projects-a-div {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 22% 56% 22%;
+}
+
+.title-a-div {
+  height: 100%;
+  width: 100%;
+  /* background-color: aqua; */
+  display: grid;
+  grid-template-rows: 85% 15%;
+}
+
+.title-a {
+  padding-top: 5%;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5vh;
+}
+
+.link-a {
+  width: 100%;
+  text-align: center;
+  font-size: 2vh;
+}
+
+.description-div {
+  height: 100%;
+  width: 100%;
+  /* background-color: yellow; */
+}
+
+.description {
+  padding-top: 3%;
+  padding-left: 2%;
+}
+
+.img-positioning-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aquamarine; */
+  height: 100%;
+  max-height: 40vh;
+}
+
+.image-a {
+  height: 80%;
+}
+
+.projects-b {
+  height: 40vh;
+  background-color: #e0e0db;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-items: center;
 }

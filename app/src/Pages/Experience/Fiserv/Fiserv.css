@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .outer {
   position: absolute;
   width: 100%;
@@ -5,14 +11,58 @@
 }
 
 .headline-div {
-  position: absolute;
+  position: relative;
+  /* background-color: aqua; */
   top: 0vh;
-  height: 10vh;
+  height: 8vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: bisque; */
+}
+
+.role {
+  margin: 0;
+  padding: 0;
+  height: 5vh;
+  width: 100%;
+  /* background-color: green; */
+  padding-left: 2%;
+  display: flex;
+  align-items: center;
+}
+
+.role-h1 {
+}
+
+.responsibilities {
+  margin: 0;
+  padding: 0;
+  height: 42vh;
+  width: 100%;
+  /* background-color: orange; */
+  padding-top: 1%;
+  padding-left: 2%;
+}
+
+.responsibilities-h1 {
+}
+
+.media-content {
+  margin: 0;
+  padding: 0;
+  height: 25vh;
+  width: 100%;
+  /* background-color: purple; */
+  padding-left: 2%;
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+}
+
+.media-content-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button-div {

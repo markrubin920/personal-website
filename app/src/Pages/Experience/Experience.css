@@ -7,7 +7,7 @@
 
 .nav-background {
   min-height: fit-content;
-  height: 12vh;
+  height: 8vh;
   background-color: #253551;
 }
 
@@ -100,10 +100,14 @@
   justify-content: center;
 }
 
+.fi-image {
+  height: 100%;
+  width: auto;
+}
+
 .learn {
   position: absolute;
   top: 60vh;
-  width: 100%;
   height: 5vh;
   display: flex;
   align-items: center;
@@ -111,10 +115,19 @@
 }
 
 .link {
-  color: #253551;
+  background-color: rgb(37, 53, 81); /* Sets the background color to blue */
+  color: white; /* Sets the text color to white */
+  border: none; /* Removes the default border */
+  padding: 10px 20px; /* Adds padding inside the button (vertical, horizontal) */
+  border-radius: 15px; /* Rounds the corners of the button */
+  font-size: 16px; /* Sets the size of the text */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+  text-align: center; /* Ensures text is centered */
+  text-decoration: none; /* Removes any underline from text */
+  display: inline-block; /* Allows setting padding and margins */
+  transition: background-color 0.3s;
 }
 
-.fi-image {
-  height: 100%;
-  width: auto;
+.link:hover {
+  background-color: rgba(37, 53, 81, 0.8);
 }

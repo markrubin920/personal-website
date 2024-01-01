@@ -1,5 +1,4 @@
 import "./Experience.css";
-import { NavLink } from "react-router-dom";
 
 const ExperienceContainer = ({
   onClickFunction,

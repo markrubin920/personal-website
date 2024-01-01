@@ -1,0 +1,59 @@
+.nav-background {
+  min-height: fit-content;
+  height: 8vh;
+  background-color: #253551;
+}
+
+.about-me-container {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.text {
+  height: 100%;
+  width: 100%;
+}
+
+.about-me-h1 {
+  padding-top: 3vh;
+  padding-bottom: 7vh;
+  width: 100%;
+  height: 8vh;
+  text-align: center;
+  font-size: 36px;
+}
+
+.about-me-p {
+  padding-top: 1.5vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  height: 70vh;
+  width: 100%;
+  font-size: 20px;
+}
+
+.picture {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.headshot-pic {
+  margin-top: 10%;
+  max-height: 70%;
+  width: auto;
+}
+
+.footer-container {
+  height: 12vh;
+  width: 100%;
+  background-color: rgb(32, 28, 28);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
