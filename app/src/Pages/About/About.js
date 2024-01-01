@@ -4,7 +4,7 @@ import Headshot from "../../Media/Headshot-Square.JPG";
 import "../../Root/Root.css";
 import "./About.css";
 
-const Projects = () => {
+const About = () => {
   return (
     <div>
       <header className="nav-background">
@@ -48,7 +48,7 @@ const Projects = () => {
           </p>
         </div>
         <div className="picture">
-          <img src={Headshot} className="headshot-pic"></img>
+          <img src={Headshot} alt="headshot" className="headshot-pic"></img>
         </div>
       </section>
       <footer className="footer-container">
@@ -58,4 +58,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default About;

@@ -61,6 +61,8 @@
 .nav-page:hover {
   background-color: #000;
   border-radius: 10%;
+  /* border-bottom: 4px solid black; Underline effect */
+  /* padding-bottom: 9px; */
   transition: background-color 0.7s ease;
 }
 
@@ -72,7 +74,7 @@
   padding: 13px;
   margin-left: 10px;
   margin-right: 10px;
-  border: #000 2px solid;
+  border: black 2px solid;
   border-radius: 15%;
   transition: background-color 0.3s;
 
