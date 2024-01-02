@@ -1,37 +1,37 @@
 .footer-div {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .contact-ul {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: last baseline;
-    justify-content: center;
-    list-style: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: last baseline;
+  justify-content: center;
+  list-style: none;
 }
 
 .contact-li {
-    padding-left: 25px;
-    padding-right: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .contact-li {
-    /* font-family: Tahoma; */
-    font-size: 16px;
-    color: white;
-    text-decoration: none;
+  /* font-family: Tahoma; */
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
 }
 
 .email {
-    text-decoration: none;
-    color: white;
-    /* position: fixed; */
-    text-align: center;
-    padding-bottom: 40px;
+  text-decoration: none;
+  color: white;
+  /* position: fixed; */
+  text-align: center;
+  padding-bottom: 40px;
 }

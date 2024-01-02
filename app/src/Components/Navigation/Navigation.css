@@ -106,6 +106,9 @@
 }
 
 .nav-icon {
+  position: absolute;
+  right: 1.5%;
+  top: 1.5%;
   height: 100%;
   width: auto;
 }

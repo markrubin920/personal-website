@@ -31,58 +31,55 @@ const Home = () => {
           </p>
         </div>
       </section>
+
       <section className="exp-container">
-        <div className="experience-div-outer">
+        <div className="exp-div">
           <div className="writing">
-            <div className="exp-title">
-              <h1>Work Experience</h1>{" "}
-            </div>
-            <div className="exp-subtitle">
-              <h1>
-                In my software engineering internships, I've honed my coding and
-                problem-solving skills, learned to navigate complex projects,
-                and gained insights into the software development lifecycle and
-                industry best practices.
-              </h1>{" "}
-            </div>
-            <div className="learn-more">
-              <NavLink to="/experience">Learn More</NavLink>
+            <h1 className="title">Work Experience</h1>
+            <h1 className="subtitle">
+              In my software engineering internships, I've honed my coding and
+              problem-solving skills, learned to navigate complex projects, and
+              gained insights into the software development lifecycle and
+              industry best practices.
+            </h1>
+            <div className="learn-more-div">
+              <NavLink to="/experience" className="learn-more">
+                Learn More
+              </NavLink>
             </div>
           </div>
-          <div className="pic-div">
-            <img src={Fiserv} alt="Fiserv Internship" className="exp-pic" />
+          <div className="picture-intern">
+            <img src={Fiserv} alt="Fiserv Internship" className="dem-pic"></img>
           </div>
         </div>
       </section>
 
-      <section className="ec-container">
-        <div className="ec-div-outer">
-          <div className="pic-div">
+      <section className="exp-container">
+        <div className="proj-div">
+          <div className="picture-projects">
             <img
               src={Workshop}
-              alt="Cloud Computing Workshop"
-              className="exp-pic"
-            />
+              alt="Fiserv Internship"
+              className="dem-pic"
+            ></img>
           </div>
           <div className="writing">
-            <div className="ec-title">
-              <h1>Extracurricular Activities</h1>{" "}
-            </div>
-            <div className="ec-subtitle">
-              <h1>
-                My extracurricular activities have sharpened my programming
-                skills, enhanced my public speaking, and refined my thinking.
-                They've taught me to approach problems creatively, communicate
-                ideas effectively, and continuously adapt and learn, enriching
-                both my technical and interpersonal abilities.
-              </h1>{" "}
-            </div>
-            <div className="learn-more">
-              <NavLink to="/extracurriculars">Learn More</NavLink>
+            <h1 className="title">Work Experience</h1>
+            <h1 className="subtitle">
+              In my software engineering internships, I've honed my coding and
+              problem-solving skills, learned to navigate complex projects, and
+              gained insights into the software development lifecycle and
+              industry best practices.
+            </h1>
+            <div className="learn-more-div">
+              <NavLink to="/experience" className="learn-more">
+                Learn More
+              </NavLink>
             </div>
           </div>
         </div>
       </section>
+
       <section className="quote-section">
         <p className="quote-text">
           Mark is an extraordinary programmer, consistently showcasing
@@ -118,9 +115,9 @@ const Home = () => {
           </ul>
         </div>
       </section>
-      <section className="footer-container">
+      <footer className="footer-container">
         <Bottom />
-      </section>
+      </footer>
     </div>
   );
 };

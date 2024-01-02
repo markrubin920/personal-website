@@ -7,7 +7,7 @@ import "./Navigation.css";
 // Build a nav bar for the top of the screen
 const Navigation = () => {
   // Initialize use state hooks to deal with different screen sizes
-  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 800);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Toggle menu functions --> Only for when the iPhone size
@@ -17,7 +17,7 @@ const Navigation = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsSmallScreen(window.innerWidth <= 768);
+      setIsSmallScreen(window.innerWidth <= 800);
     };
 
     window.addEventListener("resize", handleResize);
