@@ -12,16 +12,16 @@ const ExperienceContainer = ({
   return (
     <div className="column">
       <section className="pic">
-        <img src={image} alt="Fiserv" className="fi-image" />
+        <img src={image} alt="Fiserv" className="image" />
       </section>
       <section className="date">
-        <h3>{date}</h3>
+        <h3 className="date-h3">{date}</h3>
       </section>
       <section className="company">
-        <h2>{company}</h2>
+        <h2 className="company-h2">{company}</h2>
       </section>
       <section className="desc">
-        <p>{description}</p>
+        <p className="position-p">{description}</p>
       </section>
       <section className="learn">
         <button onClick={onClickFunction} className="link">

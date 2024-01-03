@@ -115,9 +115,8 @@ const Home = () => {
           </ul>
         </div>
       </section>
-      <footer className="footer-container">
-        <Bottom />
-      </footer>
+
+      <Bottom />
     </div>
   );
 };

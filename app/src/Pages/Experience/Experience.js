@@ -74,28 +74,24 @@ const Experience = () => {
               />
             </div>
             <div className="column">
-              <div className="column">
-                <ExperienceContainer
-                  onClickFunction={TogglePAModal}
-                  image={FiservPic}
-                  date="2/22 - 11/23"
-                  company="Prince Analytics Sports Consulting"
-                  description="Founder & CEO"
-                />
-              </div>
+              <ExperienceContainer
+                onClickFunction={TogglePAModal}
+                image={FiservPic}
+                date="2/22 - 11/23"
+                company="Prince Analytics Sports Consulting"
+                description="Founder & CEO"
+              />
             </div>
           </div>
           <div className="columns">
             <div className="column">
-              <div className="column">
-                <ExperienceContainer
-                  onClickFunction={ToggleHPModal}
-                  image={FiservPic}
-                  date="9/23 - Present"
-                  company="HackPrinceton"
-                  description="Development Team Leader"
-                />
-              </div>
+              <ExperienceContainer
+                onClickFunction={ToggleHPModal}
+                image={FiservPic}
+                date="9/23 - Present"
+                company="HackPrinceton"
+                description="Development Team Leader"
+              />
             </div>
             <div className="column">
               <ExperienceContainer

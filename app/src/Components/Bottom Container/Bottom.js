@@ -2,22 +2,22 @@ import "./Bottom.css";
 
 const Bottom = () => {
   return (
-    <footer className="footer-div">
-      <a href="mailto:markrubin920@gmail.com" className="email">
-        Website by Mark Rubin. Email me at markrubin920@gmail.com
-      </a>
-      <ul className="contact-ul">
-        <li>
-          <a href="linkedin.com" className="contact-li">
+    <footer className="footer">
+      <div className="footer-div">
+        <div className="email">
+          <a href="mailto:markrubin920@gmail.com" className="contact-email">
+            Website by Mark Rubin. Email me at markrubin920@gmail.com
+          </a>
+        </div>
+        <div className="socials">
+          <a href="linkedin.com" className="social-element1">
             LinkedIn: Mark Rubin
           </a>
-        </li>
-        <li>
-          <a href="github.com" className="contact-li">
+          <a href="github.com" className="social-element2">
             GitHub: markrubin920
           </a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </footer>
   );
 };

@@ -15,7 +15,7 @@
   position: relative;
   padding-top: 2vh;
   padding-bottom: 1vh;
-  height: 9vh;
+  min-height: 9vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -24,6 +24,8 @@
 
 .exp-header-h1 {
   font-size: 32px;
+  width: 100%;
+  text-align: center;
 }
 
 .exp {
@@ -80,6 +82,11 @@
   justify-content: center;
 }
 
+.date-h3 {
+  width: 100%;
+  text-align: center;
+}
+
 .company {
   position: absolute;
   top: 50vh;
@@ -88,6 +95,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.company-h2 {
+  width: 100%;
+  text-align: center;
 }
 
 .desc {
@@ -100,7 +112,12 @@
   justify-content: center;
 }
 
-.fi-image {
+.position-p {
+  width: 100%;
+  text-align: center;
+}
+
+.image {
   height: 100%;
   width: auto;
 }
@@ -130,4 +147,120 @@
 
 .link:hover {
   background-color: rgba(37, 53, 81, 0.8);
+}
+
+@media (max-width: 1200px) {
+  .rows {
+    display: grid;
+    grid-template-columns: 1fr; /* One column */
+    grid-template-rows: repeat(3, 1fr); /* Six rows */
+  }
+
+  .columns {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .column {
+    height: 100%;
+    width: 100%; /* Full width for each card */
+    display: flex;
+    /* border: orange 2px solid; */
+  }
+
+  .pic {
+    position: absolute;
+    top: 0vh;
+    height: 100%;
+    max-width: 45%;
+    left: 0;
+    display: block;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .image {
+    padding-left: 2%;
+    margin-top: 1.75vh;
+    height: 30vh;
+    width: auto;
+    max-width: 100%;
+    max-height: auto;
+  }
+
+  .company {
+    width: 53%;
+    position: absolute;
+    top: 0;
+    height: 7vh;
+    right: 0;
+    padding-top: 1.75vh;
+    display: flex;
+    align-items: start;
+  }
+
+  .company-h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .date {
+    position: absolute;
+    width: 53%;
+    right: 0;
+    top: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+  }
+
+  .date-h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .desc {
+    position: absolute;
+    width: 53%;
+    right: 0;
+    top: 8vh;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1vh;
+  }
+
+  .position-p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .learn {
+    position: absolute;
+    width: 53%;
+    right: 0;
+    top: 25vh;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1vh;
+  }
+
+  .link {
+    background-color: rgb(37, 53, 81); /* Sets the background color to blue */
+    color: white; /* Sets the text color to white */
+    border: none; /* Removes the default border */
+    padding: 10px 20px; /* Adds padding inside the button (vertical, horizontal) */
+    border-radius: 15px; /* Rounds the corners of the button */
+    font-size: 16px; /* Sets the size of the text */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+    text-align: center; /* Ensures text is centered */
+    text-decoration: none; /* Removes any underline from text */
+    display: inline-block; /* Allows setting padding and margins */
+    transition: background-color 0.3s;
+  }
 }
