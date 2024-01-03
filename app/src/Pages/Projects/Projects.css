@@ -59,10 +59,8 @@ body {
 }
 
 .title-a-div {
-  /* top: 20%; */
   height: 100%;
   width: 100%;
-  /* background-color: aqua; */
   display: grid;
   grid-template-rows: 33% 33% 34%;
 }
@@ -142,4 +140,126 @@ body {
   display: flex;
   align-content: center;
   justify-items: center;
+}
+
+@media (max-width: 900px) {
+  .projects-a {
+    /* position: relative; */
+    min-height: 110vh;
+    background-color: white;
+    width: 100%;
+    display: block;
+    align-content: center;
+    justify-items: center;
+  }
+
+  .projects-b {
+    min-height: 110vh;
+    background-color: #e0e0db;
+    width: 100%;
+    display: block;
+    align-content: center;
+    justify-items: center;
+  }
+
+  .projects-a-div {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+
+  .projects-b-div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-a-div {
+    /* position: absolute; */
+    order: 1;
+    height: 17vh;
+    width: 100%;
+    /* display: grid; */
+    /* grid-template-columns: none;
+    grid-template-rows: repeat(2, 1fr); */
+    position: relative;
+    display: block; /* Stack title elements */
+    margin-bottom: 2vh; /* Spacing below the title section */
+  }
+
+  .title-a {
+    width: 100%;
+    text-align: center;
+    padding-top: 2vh;
+    width: 100%;
+    text-align: center;
+    font-size: 3.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1vh;
+  }
+
+  .skills-a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1vh;
+  }
+
+  .link-div {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .link-a {
+    background-color: rgb(37, 53, 81); /* Sets the background color to blue */
+    color: white; /* Sets the text color to white */
+    border: none; /* Removes the default border */
+    padding: 10px 20px; /* Adds padding inside the button (vertical, horizontal) */
+    border-radius: 15px; /* Rounds the corners of the button */
+    font-size: 16px; /* Sets the size of the text */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+    text-align: center; /* Ensures text is centered */
+    text-decoration: none; /* Removes any underline from text */
+    display: inline-block; /* Allows setting padding and margins */
+    transition: background-color 0.3s;
+  }
+
+  .description-div {
+    order: 2;
+    position: relative; /* Keep it relative */
+    display: block; /* Stack description */
+    margin-top: 0vh; /* Space after the title */
+    margin-bottom: 2vh; /* Space before the image */
+    padding-top: 0;
+  }
+
+  .description {
+    width: 100%;
+    padding-top: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    text-align: center;
+  }
+
+  .img-positioning-a {
+    order: 3;
+    left: 10%;
+    width: 80%;
+    position: relative; /* Keep it relative */
+    display: block; /* Stack image */
+    margin-top: 2vh; /* Space after the description */
+  }
+
+  .image-a {
+    /* height: 100%; */
+    max-width: 100%; /* Ensure image does not overflow */
+    height: auto; /* Keep aspect ratio */
+  }
 }

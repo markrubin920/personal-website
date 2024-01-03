@@ -24,6 +24,8 @@
   position: relative;
   padding-top: 2vh;
   padding-bottom: 1vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
   min-height: 9vh;
   width: 100%;
   display: flex;
@@ -79,6 +81,8 @@
   align-items: center;
   justify-content: center;
   z-index: 1;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .date {
@@ -89,6 +93,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .date-h3 {
@@ -104,6 +110,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 
 .company-h2 {
@@ -119,6 +127,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .position-p {
