@@ -2,7 +2,10 @@ import "./Home.css";
 import Bottom from "../../Components/Bottom Container/Bottom";
 import Navigation from "../../Components/Navigation/Navigation";
 import Fiserv from "../../Media/Fiserv-Picture.jpg";
-import Workshop from "../../Media/Cloud-Workshop-Picture.jpg";
+import Driver from "../../Media/Driving Simulator.png";
+import Github from "../../Media/Github-mini-logo.png";
+import Mail from "../../Media/Mail-mini-logo.png";
+import LinkedIn from "../../Media/Linkedin-mini-logo.png";
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
@@ -22,12 +25,10 @@ const Home = () => {
       <section className="about-container">
         <div className="about-div">
           <p className="about-text">
-            A young man at Princeton University, deeply immersed in the realm of
-            computer science, is a picture of determination and intelligence.
-            His days are filled with coding, algorithmic challenges, and
-            exploring the latest in artificial intelligence. He's passionate
-            about technology's potential and dreams of innovating in the tech
-            world.
+            A sophomore studying computer science at Princeton University,
+            passionate about learning the technologies of today to make an
+            impact tomorrow. I am a highly driven, innovative and curious
+            individual, always looking for opportunities to challenge myself.
           </p>
         </div>
       </section>
@@ -35,12 +36,12 @@ const Home = () => {
       <section className="exp-container">
         <div className="exp-div">
           <div className="writing">
-            <h1 className="title">Work Experience</h1>
+            <h1 className="title">Work and Extracurricular Experiences</h1>
             <h1 className="subtitle">
-              In my software engineering internships, I've honed my coding and
-              problem-solving skills, learned to navigate complex projects, and
-              gained insights into the software development lifecycle and
-              industry best practices.
+              My education, internship, extracurricular and startup experiences
+              have made me into a truly well rounded individual. They have
+              helped me develop a strong work ethic and built up my skills, both
+              technical and personal.
             </h1>
             <div className="learn-more-div">
               <NavLink to="/experience" className="learn-more">
@@ -57,22 +58,18 @@ const Home = () => {
       <section className="exp-container">
         <div className="proj-div">
           <div className="picture-projects">
-            <img
-              src={Workshop}
-              alt="Fiserv Internship"
-              className="dem-pic"
-            ></img>
+            <img src={Driver} alt="Driving Simulator" className="dem-pic"></img>
           </div>
           <div className="writing">
-            <h1 className="title">Work Experience</h1>
+            <h1 className="title">Personal Projects</h1>
             <h1 className="subtitle">
-              In my software engineering internships, I've honed my coding and
-              problem-solving skills, learned to navigate complex projects, and
-              gained insights into the software development lifecycle and
-              industry best practices.
+              Projects have given me an outlet to pursue my interests and learn
+              more in areas beyond the classroom alone. They have also taught me
+              a lot about system design and understanding the complexities of
+              technology in realistic and difficult situations.
             </h1>
             <div className="learn-more-div">
-              <NavLink to="/experience" className="learn-more">
+              <NavLink to="/projects" className="learn-more">
                 Learn More
               </NavLink>
             </div>
@@ -82,10 +79,10 @@ const Home = () => {
 
       <section className="quote-section">
         <p className="quote-text">
-          Mark is an extraordinary programmer, consistently showcasing
-          exceptional skill, innovative thinking, and advanced problem-solving
-          abilities. His coding projects reflect a deep understanding of complex
-          concepts and a commitment to excellence in software development.
+          My interests in technology span a variety of sectors, including full
+          stack software engineering, quantitative finance, artificial
+          intelligence, and cloud and quantum computing. Look around to learn
+          more about me and I look forward to connecting!
         </p>
       </section>
       <section className="contact-container">
@@ -98,16 +95,23 @@ const Home = () => {
               <h2>Contact Information</h2>
             </li>
             <li>
+              <img src={Mail} alt="Mail logo" className="temp-icon"></img>
               <a href="mailto:markrubin920@gmail.com" className="contact">
                 Email markrubin920@gmail.com
               </a>
             </li>
             <li>
+              <img
+                src={LinkedIn}
+                alt="Linkedin logo"
+                className="temp-icon"
+              ></img>
               <a href="linkedin.com" className="contact">
                 LinkedIn: Mark Rubin
               </a>
             </li>
             <li>
+              <img src={Github} alt="Github logo" className="temp-icon"></img>
               <a href="github.com" className="contact">
                 GitHub: markrubin920
               </a>
