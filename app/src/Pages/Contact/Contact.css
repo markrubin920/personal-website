@@ -125,3 +125,14 @@
   display: inline-block; /* Allows setting padding and margins */
   transition: background-color 0.3s;
 }
+
+@media (max-width: 600px) {
+  .contact-me-card {
+    width: 90%;
+    left: 5%;
+  }
+
+  .input {
+    width: 32vw;
+  }
+}
