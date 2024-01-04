@@ -145,7 +145,7 @@ body {
 @media (max-width: 900px) {
   .projects-a {
     /* position: relative; */
-    min-height: 110vh;
+    min-height: 10vh;
     background-color: white;
     width: 100%;
     display: block;
@@ -154,7 +154,7 @@ body {
   }
 
   .projects-b {
-    min-height: 110vh;
+    min-height: 10vh;
     background-color: #e0e0db;
     width: 100%;
     display: block;
@@ -250,10 +250,13 @@ body {
 
   .img-positioning-a {
     order: 3;
-    left: 10%;
-    width: 80%;
+    /* left: 10%;
+    width: 80%; */
     position: relative; /* Keep it relative */
-    display: block; /* Stack image */
+    /* display: block; Stack image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 2vh; /* Space after the description */
   }
 
@@ -261,5 +264,7 @@ body {
     /* height: 100%; */
     max-width: 100%; /* Ensure image does not overflow */
     height: auto; /* Keep aspect ratio */
+    max-height: 35vh;
+    /* border: #253551 20px solid; */
   }
 }

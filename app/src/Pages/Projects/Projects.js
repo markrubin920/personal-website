@@ -2,6 +2,9 @@ import Navigation from "../../Components/Navigation/Navigation";
 import Bottom from "../../Components/Bottom Container/Bottom";
 import DrivingSimulator from "../../Media/Driving Simulator.png";
 import Chip from "../../Media/Chip.jpg";
+import Combine from "../../Media/CombineStats.png";
+import Web from "../../Media/Home Page.png";
+import Streamlit from "../../Media/Streamlit Dashboard.png";
 import "../../Root/Root.css";
 import "./Projects.css";
 
@@ -104,8 +107,8 @@ const Projects = () => {
       <section className="projects-a">
         <div className="projects-a-div">
           <div className="title-a-div">
-            <h1 className="title-a">Driving Simulator</h1>
-            <h3 className="skills-a">Skills: Java, Java Swing</h3>
+            <h1 className="title-a">Personal Website</h1>
+            <h3 className="skills-a">Skills: React JS, Tailwind CSS</h3>
             <div className="link-div">
               <a href="github.com" className="link-a">
                 Link to Repository
@@ -113,10 +116,24 @@ const Projects = () => {
             </div>
           </div>
           <div className="description-div">
-            <p className="description">Bla bla bla</p>
+            <p className="description">
+              This personal website was developed to be able to showcase the
+              work I’ve done and allow others to get to learn more about me. It
+              was the largest frontend project I’ve done as the sole developer
+              which taught me a lot about not just building functionality but
+              also user experience design, device compatibility and so much
+              more. This project was developed using React JS and tailwind CSS
+              over winter break. <br></br>
+              <br></br>
+              Building this personal website allowed me to gain a better
+              understanding of how to develop a product all the way from design
+              mockups to figuring out hosting and taught me to think even more
+              about the small details that are crucial in the software
+              development life cycle.
+            </p>
           </div>
           <div className="img-positioning-a">
-            <img src={DrivingSimulator} alt="Project" className="image-a"></img>
+            <img src={Web} alt="Personal Website" className="image-a"></img>
           </div>
         </div>
       </section>
@@ -124,14 +141,31 @@ const Projects = () => {
       <section className="projects-b">
         <div className="projects-b-div">
           <div className="img-positioning-a">
-            <img src={DrivingSimulator} alt="Project" className="image-a"></img>
+            <img src={Combine} alt="Combine Stats" className="image-a"></img>
           </div>
           <div className="description-div">
-            <p className="description">Bla bla bla</p>
+            <p className="description">
+              The origins of this project date all the way back to high school,
+              when I was manually collecting data on NFL draft prospects to be
+              able to build algorithms to predict their success in the NFL – the
+              project that led me to founding Prince Analytics Sports
+              Consulting. I recognized that the large majority of my time was
+              spent on data collection rather than algorithm building, and if I
+              could speed up the data collection, my work would be far more
+              efficient. From here, my brother and I teamed up to create a
+              Python web scraper using the Beautiful Soup package to collect the
+              data I needed.<br></br>
+              <br></br>
+              This project sped up my data collection workflow from months to
+              just minutes. This was one of my earliest coding projects and made
+              me realize the power of programming and automation scripting in
+              creating efficiency. Investing the time to create processes early
+              has massive time saving on the back end.
+            </p>
           </div>
           <div className="title-a-div">
-            <h1 className="title-a">Driving Simulator</h1>
-            <h3 className="skills-a">Skills: Java, Java Swing</h3>
+            <h1 className="title-a">NFL Combine Data Webscraper</h1>
+            <h3 className="skills-a">Skills: Python, Beautiful Soup Package</h3>
             <div className="link-div">
               <a href="github.com" className="link-a">
                 Link to Repository
@@ -144,8 +178,10 @@ const Projects = () => {
       <section className="projects-a">
         <div className="projects-a-div">
           <div className="title-a-div">
-            <h1 className="title-a">Driving Simulator</h1>
-            <h3 className="skills-a">Skills: Java, Java Swing</h3>
+            <h1 className="title-a">GitHub Data Dashboard</h1>
+            <h3 className="skills-a">
+              Skills: Python, STATA, Streamlit Package, Pandas Package
+            </h3>
             <div className="link-div">
               <a href="github.com" className="link-a">
                 Link to Repository
@@ -153,10 +189,39 @@ const Projects = () => {
             </div>
           </div>
           <div className="description-div">
-            <p className="description">Bla bla bla</p>
+            <p className="description">
+              For this project, I was given a dataset of 900 GitHub repositories
+              with details on their stars, watchers, contributors, pull
+              requests, etc. The prompt for the project was to find an
+              interesting theme in the data and create a dashboard using the
+              Streamlit platform to convey the trend I found in about three
+              hours.<br></br>
+              <br></br>
+              From analyzing the data using STATA, I recognized that the
+              repositories using less popular programming languages measured by
+              their frequency in the repository data tended to receive more
+              stars and less contributors on average, but the more common
+              programming languages like JavaScript or Python had more
+              contributors and less stars. This indicated more interactivity
+              with repositories of popular programming languages and more use of
+              GitHub repositories for coding help from programmers using less
+              popular languages.<br></br>
+              <br></br>
+              From this trend, I created the tag line “Niche Coding Communities
+              Call GitHub for Help, More Popular Languages Use it for Fun and
+              Creativity” to immediately explain the trend I found. This was
+              followed by scatter plots, bar charts and a data table that
+              clearly demonstrated this idea. The project taught me how to more
+              effectively use data to tell a story and gave me familiarity with
+              a new Python package with powerful data capabilities.
+            </p>
           </div>
           <div className="img-positioning-a">
-            <img src={DrivingSimulator} alt="Project" className="image-a"></img>
+            <img
+              src={Streamlit}
+              alt="Streamlit Dashboard"
+              className="image-a"
+            ></img>
           </div>
         </div>
       </section>

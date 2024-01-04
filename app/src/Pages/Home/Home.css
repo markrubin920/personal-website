@@ -103,6 +103,15 @@ body {
 } */
 
 @media (max-width: 820px) {
+  .top-container {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background-image: url("../../Media/Tiger-Pic-Iphone.JPG");
+    background-size: cover;
+    background-position: center;
+  }
+
   .hello {
     font-size: 40px; /* Even smaller font for very small screens */
     padding-bottom: 0vh;
