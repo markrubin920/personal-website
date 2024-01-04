@@ -25,10 +25,11 @@ const Home = () => {
       <section className="about-container">
         <div className="about-div">
           <p className="about-text">
-            A sophomore studying computer science at Princeton University,
-            passionate about learning the technologies of today to make an
-            impact tomorrow. I am a highly driven, innovative and curious
-            individual, always looking for opportunities to challenge myself.
+            A sophomore studying computer science and engineering at Princeton
+            University, passionate about learning the technologies of today to
+            make an impact tomorrow. I am a highly driven, curious and
+            team-oriented individual, always looking for opportunities to
+            challenge myself.
           </p>
         </div>
       </section>
@@ -61,7 +62,7 @@ const Home = () => {
             <img src={Driver} alt="Driving Simulator" className="dem-pic"></img>
           </div>
           <div className="writing">
-            <h1 className="title">Personal Projects</h1>
+            <h1 className="title">Projects</h1>
             <h1 className="subtitle">
               Projects have given me an outlet to pursue my interests and learn
               more in areas beyond the classroom alone. They have also taught me
