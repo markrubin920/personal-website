@@ -1,11 +1,21 @@
 import Navigation from "../../Components/Navigation/Navigation";
 import Bottom from "../../Components/Bottom Container/Bottom";
-import FiservPic from "../../Media/Cloud-Workshop-Picture.jpg";
+import FiservPic from "../../Media/Fiserv-Picture.jpg";
+import Workshop from "../../Media/Cloud-Workshop-Picture.jpg";
 import ExperienceContainer from "./ExperienceContainer.js";
+import DraftCover from "../../Media/Draft Cover.png";
+import SOFGroup from "../../Media/Scholars of Finance Group Picture.png";
+import PrincetonPicture from "../../Media/Princeton Picture.JPG";
+import TigerAppsPicture from "../../Media/TigerApps.png";
 import "../../Root/Root.css";
 import "./Experience.css";
 import { useState } from "react";
 import Fiserv from "./Fiserv/Fiserv.js";
+import PrinceAnalytics from "./Prince Analytics/PrinceAnalytics.js";
+import HackPrinceton from "./HackPrinceton/HackPrinceton.js";
+import SOF from "./SOF/SOF.js";
+import Princeton from "./Princeton/Princeton.js";
+import TigerApps from "./TigerApps/TigerApps.js";
 
 const Experience = () => {
   const [showFiserv, setShowFiserv] = useState(false);
@@ -55,13 +65,12 @@ const Experience = () => {
 
       <section className="exp">
         <div className="rows">
-          {showFiserv && (
-            <div className="modal-overlay">
-              <div className="modal-content">
-                <Fiserv onClickFunction={ToggleFiservModal} />
-              </div>
-            </div>
-          )}
+          {showFiserv && <Fiserv onClickFunction={ToggleFiservModal} />}
+          {showPA && <PrinceAnalytics onClickFunction={TogglePAModal} />}
+          {showHP && <HackPrinceton onClickFunction={ToggleHPModal} />}
+          {showPton && <Princeton onClickFunction={TogglePtonModal} />}
+          {showSOF && <SOF onClickFunction={ToggleSOFModal} />}
+          {showTA && <TigerApps onClickFunction={ToggleTAModal} />}
 
           <div className="columns">
             <div className="column">
@@ -76,7 +85,7 @@ const Experience = () => {
             <div className="column">
               <ExperienceContainer
                 onClickFunction={TogglePAModal}
-                image={FiservPic}
+                image={DraftCover}
                 date="2/22 - 11/23"
                 company="Prince Analytics Sports Consulting"
                 description="Founder & CEO"
@@ -87,7 +96,7 @@ const Experience = () => {
             <div className="column">
               <ExperienceContainer
                 onClickFunction={ToggleHPModal}
-                image={FiservPic}
+                image={Workshop}
                 date="9/23 - Present"
                 company="HackPrinceton"
                 description="Development Team Leader"
@@ -96,7 +105,7 @@ const Experience = () => {
             <div className="column">
               <ExperienceContainer
                 onClickFunction={ToggleTAModal}
-                image={FiservPic}
+                image={TigerAppsPicture}
                 date="9/23 - Present"
                 company="TigerApps"
                 description="Junior Software Developer"
@@ -107,7 +116,7 @@ const Experience = () => {
             <div className="column">
               <ExperienceContainer
                 onClickFunction={ToggleSOFModal}
-                image={FiservPic}
+                image={SOFGroup}
                 date="10/23 - Present"
                 company="Scholars of Finance"
                 description="Leadership Development Program"
@@ -116,7 +125,7 @@ const Experience = () => {
             <div className="column">
               <ExperienceContainer
                 onClickFunction={TogglePtonModal}
-                image={FiservPic}
+                image={PrincetonPicture}
                 date="9/22 - 5/26 (Expected)"
                 company="Princeton"
                 description="Computer Science, School of Engineering"

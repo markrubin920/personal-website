@@ -17,7 +17,7 @@
 .modal-content {
   position: fixed;
   top: 10vh;
-  height: 80vh;
+  min-height: 80vh;
   left: 10%;
   width: 80%;
   background-color: ghostwhite;
@@ -25,4 +25,5 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   z-index: 100000;
   animation: fadeIn 0.5s ease-in-out;
+  overflow: auto; /* Add scroll if content overflows */
 }

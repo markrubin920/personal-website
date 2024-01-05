@@ -174,3 +174,8 @@ body {
   display: block;
   width: 100%;
 }
+
+.active-nav-item {
+  text-decoration: underline;
+  color: aqua;
+}
