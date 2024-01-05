@@ -3,6 +3,7 @@ import Bottom from "../../Components/Bottom Container/Bottom";
 import DrivingSimulator from "../../Media/Driving Simulator.png";
 import Chip from "../../Media/Chip.jpg";
 import Combine from "../../Media/CombineStats.png";
+import Draft from "../../Media/NFL Draft.png";
 import Web from "../../Media/Home Page.png";
 import Streamlit from "../../Media/Streamlit Dashboard.png";
 import "../../Root/Root.css";
@@ -10,7 +11,7 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="screen">
       <header className="nav-background">
         <Navigation />
       </header>
@@ -37,14 +38,14 @@ const Projects = () => {
               <br></br>
               <br></br>
               When the user enters the simulator, they choose from a variety of
-              road setups that are initially configured. When the user enters
-              the simulator, they control one of the cars, and there are
-              typically 3-4 cars also in the environment that are autonomous.
-              They were trained to stop at red lights, accelerate when it turns
-              green, know which direction to turn so they stay on path, and stop
-              moving when they hit a dead end. The user controls their car
-              through the keyboard and must drive through the track without
-              crashing or running through any red lights. <br></br>
+              road setups that are initially configured. The user then controls
+              one of the cars, and there are typically 3-4 other cars in the
+              environment as well that are autonomous. They were trained to stop
+              at red lights, accelerate when it turns green, know which
+              direction to turn so they stay on path, and stop moving when they
+              hit a dead end. The user controls their car through the keyboard
+              and must drive through the track without crashing or running
+              through any red lights. <br></br>
               <br></br>
               At the time, this project was my first large computer science
               project and solidified my interest in the field as I really
@@ -107,33 +108,45 @@ const Projects = () => {
       <section className="projects-a">
         <div className="projects-a-div">
           <div className="title-a-div">
-            <h1 className="title-a">Personal Website</h1>
-            <h3 className="skills-a">Skills: React JS, Tailwind CSS</h3>
+            <h1 className="title-a">
+              NFL Draft Prospect Evaluation Algorithms
+            </h1>
+            <h3 className="skills-a">Skills: Statistical Data Analysis</h3>
             <div className="link-div">
               <a href="github.com" className="link-a">
-                Link to Repository
+                Link to Information
               </a>
             </div>
           </div>
           <div className="description-div">
             <p className="description">
-              This personal website was developed to be able to showcase the
-              work I’ve done and allow others to get to learn more about me. It
-              was the largest frontend project I’ve done as the sole developer
-              which taught me a lot about not just building functionality but
-              also user experience design, device compatibility and so much
-              more. This project was developed using React JS and tailwind CSS
-              over winter break. <br></br>
+              As someone who has always had an interest in sports analytics and
+              understanding how to optimize roster composition particularly in
+              the NFL, I began this project my freshman year of high school and
+              continue it until this day. For this project, I collected both
+              quantitative and qualitative data on over 1,800 NFL draft
+              prospects from 2010-2019 in hopes of identifying the common
+              denominators among successful and unsuccessful players in their
+              transition to the professional level. From the trends I found, I
+              created 12 multiplicative weights algorithms – one for each of
+              position – that are capable of predicting “success”, as defined by
+              making a player making a Pro Bowl at some point in their career,
+              with over 60% accuracy and combining this with the conditional
+              probability that player is a consensus first round pick raises the
+              predictive power to nearly 81%. This more than doubles the current
+              rate of NFL draft picks which by the same metric of success
+              reaches only 37.6%. <br></br>
               <br></br>
-              Building this personal website allowed me to gain a better
-              understanding of how to develop a product all the way from design
-              mockups to figuring out hosting and taught me to think even more
-              about the small details that are crucial in the software
-              development life cycle.
+              After completing the first edition of the algorithms, I
+              cold-emailed NFL teams and garnered interest from several
+              professional football data analysts whom I prepared a 19-page
+              report for on the 2022 NFL Draft by their request. These
+              algorithms are still used for developing reports on the draft each
+              year and are maintaining their projected predictive power.
             </p>
           </div>
           <div className="img-positioning-a">
-            <img src={Web} alt="Personal Website" className="image-a"></img>
+            <img src={Draft} alt="NFL Draft" className="image-a"></img>
           </div>
         </div>
       </section>
@@ -178,15 +191,45 @@ const Projects = () => {
       <section className="projects-a">
         <div className="projects-a-div">
           <div className="title-a-div">
-            <h1 className="title-a">GitHub Data Dashboard</h1>
-            <h3 className="skills-a">
-              Skills: Python, STATA, Streamlit Package, Pandas Package
-            </h3>
+            <h1 className="title-a">Personal Website</h1>
+            <h3 className="skills-a">Skills: React JS, Tailwind CSS</h3>
             <div className="link-div">
               <a href="github.com" className="link-a">
                 Link to Repository
               </a>
             </div>
+          </div>
+          <div className="description-div">
+            <p className="description">
+              This personal website was developed to be able to showcase the
+              work I’ve done and allow others to get to learn more about me. It
+              was the largest frontend project I’ve done as the sole developer
+              which taught me a lot about not just building functionality but
+              also user experience design, device compatibility and so much
+              more. This project was developed using React JS and tailwind CSS
+              over winter break. <br></br>
+              <br></br>
+              Building this personal website allowed me to gain a better
+              understanding of how to develop a product all the way from design
+              mockups to figuring out hosting and taught me to think even more
+              about the small details that are crucial in the software
+              development life cycle.
+            </p>
+          </div>
+          <div className="img-positioning-a">
+            <img src={Web} alt="Personal Website" className="image-a"></img>
+          </div>
+        </div>
+      </section>
+
+      <section className="projects-b">
+        <div className="projects-b-div">
+          <div className="img-positioning-a">
+            <img
+              src={Streamlit}
+              alt="Streamlit Dashboard"
+              className="image-a"
+            ></img>
           </div>
           <div className="description-div">
             <p className="description">
@@ -216,12 +259,16 @@ const Projects = () => {
               a new Python package with powerful data capabilities.
             </p>
           </div>
-          <div className="img-positioning-a">
-            <img
-              src={Streamlit}
-              alt="Streamlit Dashboard"
-              className="image-a"
-            ></img>
+          <div className="title-a-div">
+            <h1 className="title-a">GitHub Data Dashboard</h1>
+            <h3 className="skills-a">
+              Skills: Python, STATA, Streamlit Package, Pandas Package
+            </h3>
+            <div className="link-div">
+              <a href="github.com" className="link-a">
+                Link to Repository
+              </a>
+            </div>
           </div>
         </div>
       </section>

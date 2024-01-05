@@ -10,7 +10,10 @@ const Bottom = () => {
           </a>
         </div>
         <div className="socials">
-          <a href="linkedin.com" className="social-element1">
+          <a
+            href="https://www.linkedin.com/in/markrubin10/"
+            className="social-element1"
+          >
             LinkedIn: Mark Rubin
           </a>
           <a href="github.com" className="social-element2">

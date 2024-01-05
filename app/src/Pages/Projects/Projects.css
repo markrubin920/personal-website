@@ -1,6 +1,14 @@
 html,
 body {
   background-color: white;
+  position: absolute;
+}
+
+.screen {
+  position: absolute;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .nav-background {
@@ -81,6 +89,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-size: 20px;
 }
 
 .link-div {
@@ -114,10 +123,11 @@ body {
 }
 
 .description {
-  padding-top: 5vh;
+  padding-top: 3vh;
   padding-left: 2vh;
   padding-right: 2vh;
   text-align: left;
+  font-size: 19px;
 }
 
 .img-positioning-a {
@@ -237,7 +247,7 @@ body {
     display: block; /* Stack description */
     margin-top: 0vh; /* Space after the title */
     margin-bottom: 2vh; /* Space before the image */
-    padding-top: 0;
+    padding-top: 1vh;
   }
 
   .description {

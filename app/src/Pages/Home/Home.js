@@ -107,7 +107,10 @@ const Home = () => {
                 alt="Linkedin logo"
                 className="temp-icon"
               ></img>
-              <a href="linkedin.com" className="contact">
+              <a
+                href="https://www.linkedin.com/in/markrubin10/"
+                className="contact"
+              >
                 LinkedIn: Mark Rubin
               </a>
             </li>
