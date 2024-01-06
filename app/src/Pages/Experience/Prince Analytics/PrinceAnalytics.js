@@ -1,5 +1,4 @@
 import "../Modal.css";
-import "./PrinceAnalytics.css";
 import X from "../../../Media/Black X.png";
 import DraftCover from "../../../Media/Draft Cover.png";
 import NBA from "../../../Media/Bufkin Report Cover.png";

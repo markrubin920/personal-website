@@ -27,7 +27,6 @@ body {
 }
 
 .projects-a {
-  /* position: relative; */
   min-height: 40vh;
   background-color: white;
   width: 100%;
@@ -131,6 +130,7 @@ body {
 }
 
 .img-positioning-a {
+  animation: fadeIn 1.5s ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,5 +1,4 @@
 import "../Modal.css";
-import "./Princeton.css";
 import X from "../../../Media/Black X.png";
 import PrincetonPicture from "../../../Media/Princeton Logo.png";
 

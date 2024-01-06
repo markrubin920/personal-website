@@ -1,5 +1,4 @@
 import "../Modal.css";
-import "./SOF.css";
 import X from "../../../Media/Black X.png";
 import SOFLogo from "../../../Media/SOF-Logo.jpg";
 

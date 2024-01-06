@@ -1,5 +1,5 @@
 import "../Modal.css";
-import "./TigerApps.css";
+// import "./TigerApps.css";
 import X from "../../../Media/Black X.png";
 import TigerAppsHome from "../../../Media/TigerApps Home.png";
 

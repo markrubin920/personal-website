@@ -1,5 +1,4 @@
 import "../Modal.css";
-import "./HackPrinceton.css";
 import X from "../../../Media/Black X.png";
 import Cloud from "../../../Media/Cloud Workshop.png";
 

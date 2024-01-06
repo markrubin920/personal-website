@@ -1,9 +1,7 @@
 import "../Modal.css";
-import "./Fiserv.css";
 import X from "../../../Media/Black X.png";
 import Presentation from "../../../Media/EOI Presentation.png";
 import Interns from "../../../Media/Fiserv Group Picture.jpg";
-// import { useState } from "react";
 
 const Fiserv = ({ onClickFunction }) => {
   return (
