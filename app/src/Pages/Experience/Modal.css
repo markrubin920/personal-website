@@ -52,6 +52,8 @@
 }
 
 .fiserv {
+  position: absolute;
+  top: 0;
   padding-top: 1.5vh;
   font-size: 36px;
   text-align: center;
@@ -80,7 +82,7 @@
 .responsibilities {
   margin: 0;
   padding: 0;
-  height: 65vh;
+  min-height: fit-content;
   width: 60%;
   padding-top: 1vh;
   padding-left: 2vw;
@@ -178,7 +180,7 @@
   .headline-div {
     position: relative;
     top: 0vh;
-    height: 8vh;
+    min-height: 8vh;
     left: 15%;
     width: 70%;
     display: flex;
@@ -187,6 +189,8 @@
   }
 
   .fiserv {
+    position: absolute;
+    top: 0;
     font-size: 36px;
   }
 
@@ -213,14 +217,12 @@
   .responsibilities {
     margin: 0;
     padding: 0;
-    min-height: 65vh;
+    min-height: fit-content;
     width: 100%;
     padding-top: 1vh;
-    padding-left: 2vw;
+    padding-left: 4vw;
     display: block;
     min-height: auto;
-    padding-bottom: 100vh;
-    /* padding-bottom: 2px; */
   }
 
   .responsibilities-h1 {
@@ -315,7 +317,7 @@
   .headline-div {
     position: relative;
     top: 0vh;
-    height: 8vh;
+    min-height: 8vh;
     left: 15%;
     width: 70%;
     display: flex;
@@ -329,7 +331,6 @@
 
   .content {
     display: block;
-    /* flex-direction: row; */
   }
 
   .role {
@@ -350,14 +351,12 @@
   .responsibilities {
     margin: 0;
     padding: 0;
-    min-height: 65vh;
+    min-height: fit-content;
     width: 100%;
     padding-top: 1vh;
-    padding-left: 2vw;
+    padding-left: 4vw;
     display: block;
     min-height: auto;
-    padding-bottom: 135vh;
-    /* padding-bottom: 2px; */
   }
 
   .responsibilities-h1 {
@@ -466,7 +465,6 @@
 
   .content {
     display: block;
-    /* flex-direction: row; */
   }
 
   .role {
@@ -487,14 +485,12 @@
   .responsibilities {
     margin: 0;
     padding: 0;
-    min-height: 65vh;
+    min-height: fit-content;
     width: 100%;
     padding-top: 1vh;
-    padding-left: 2vw;
+    padding-left: 4vw;
     display: block;
     min-height: auto;
-    padding-bottom: 185vh;
-    /* padding-bottom: 2px; */
   }
 
   .responsibilities-h1 {

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import NavIcon from "../../Media/Hamburger-Menu-Icon.png";
 import XIcon from "../../Media/X-icon.png";
+import Resume from "../../Media/PDFs/Resume.pdf";
 import "./Navigation.css";
 
 // Build a nav bar for the top of the screen
@@ -39,22 +40,33 @@ const Navigation = () => {
         </div>
         {/* Top Right Navigation Elements */}
         <div className="nav-list">
-          <NavLink to="/experience" className="nav-page">
+          <NavLink
+            to="/experience"
+            className="nav-page"
+            activeClassName="active-c"
+          >
             Experiences
           </NavLink>
-          <NavLink to="/projects" className="nav-page">
+          <NavLink
+            to="/projects"
+            className="nav-page"
+            activeClassName="active-c"
+          >
             Projects
           </NavLink>
-          <NavLink to="/about" className="nav-page">
+          <NavLink to="/about" className="nav-page" activeClassName="active-c">
             About
           </NavLink>
-          <NavLink to="/contact" className="nav-page">
+          <NavLink
+            to="/contact"
+            className="nav-page"
+            activeClassName="active-c"
+          >
             Contact
           </NavLink>
-          <NavLink to="/resume" className="resume">
+          <a href={Resume} download="Mark-Rubin-Resume.pdf" className="resume">
             Resume
-          </NavLink>
-          {/* Need to make a download link */}
+          </a>
         </div>
       </header>
     );
@@ -81,9 +93,9 @@ const Navigation = () => {
             <NavLink to="/contact" className="nl">
               <li className="nav-v-list-li">Contact</li>
             </NavLink>
-            <NavLink to="/resume" className="nl">
+            <a href={Resume} download="Mark-Rubin-Resume.pdf" className="nl">
               <li className="nav-v-list-li">Resume</li>
-            </NavLink>
+            </a>
           </ul>
         </div>
       </div>

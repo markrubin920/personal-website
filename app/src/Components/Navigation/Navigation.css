@@ -50,6 +50,10 @@ body {
   justify-content: right;
 }
 
+.nav-list .nav-page.active {
+  text-decoration: underline;
+}
+
 .nav-page {
   font-family: Tahoma;
   font-size: 25px;
@@ -57,17 +61,20 @@ body {
   text-decoration: none;
   padding: 13px;
   transition: background-color 0.3s;
+  /* text-decoration: none; */
 
   text-shadow: -1px -1px 0 #000, /* Left and top shadow */ 1px -1px 0 #000,
     /* Right and top shadow */ -1px 1px 0 #000,
     /* Left and bottom shadow */ 1px 1px 0 #000; /* Right and bottom shadow */
 }
 
+.active-c {
+  text-decoration: underline;
+}
+
 .nav-page:hover {
   background-color: #000;
   border-radius: 10%;
-  /* border-bottom: 4px solid black; Underline effect */
-  /* padding-bottom: 9px; */
   transition: background-color 0.7s ease;
 }
 
@@ -129,7 +136,7 @@ body {
 
 .vnav-button {
   background-color: transparent;
-  height: 8%;
+  height: 50vh;
   width: auto;
   border: none;
   position: absolute;
@@ -138,7 +145,10 @@ body {
 }
 
 .nav-icon-exit {
-  height: 100%;
+  position: absolute;
+  top: 2.5%;
+  right: 2.5%;
+  height: 7vh;
   width: auto;
 }
 

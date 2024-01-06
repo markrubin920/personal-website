@@ -7,12 +7,12 @@ const ExperienceContainer = ({
   company,
   description,
 }) => {
-  // const url = "/experience/" + experience;
-
   return (
     <div className="column">
       <section className="pic">
-        <img src={image} alt="Fiserv" className="image" />
+        <button onClick={onClickFunction} className="image">
+          <img src={image} alt="Company" className="image" />
+        </button>
       </section>
       <section className="date">
         <h3 className="date-h3">{date}</h3>

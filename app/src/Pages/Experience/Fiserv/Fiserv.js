@@ -2,6 +2,7 @@ import "../Modal.css";
 import X from "../../../Media/Black X.png";
 import Presentation from "../../../Media/EOI Presentation.png";
 import Interns from "../../../Media/Fiserv Group Picture.jpg";
+import EOI from "../../../Media/PDFs/EOI.pdf";
 
 const Fiserv = ({ onClickFunction }) => {
   return (
@@ -57,7 +58,7 @@ const Fiserv = ({ onClickFunction }) => {
             </div>
             <div className="media-content">
               <div className="media-content-div">
-                <a href="temporarylink.com">
+                <a href={EOI} download="End-of-Internship-Presentation.pdf">
                   <img
                     src={Presentation}
                     alt="End of Internship Presentation"

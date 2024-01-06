@@ -1,6 +1,7 @@
 import "../Modal.css";
 import X from "../../../Media/Black X.png";
 import Cloud from "../../../Media/Cloud Workshop.png";
+import CloudPresentation from "../../../Media/PDFs/Intro to Cloud Computing.pdf";
 
 const HackPrinceton = ({ onClickFunction }) => {
   return (
@@ -36,7 +37,10 @@ const HackPrinceton = ({ onClickFunction }) => {
             </div>
             <div className="media-content">
               <div className="media-content-div">
-                <a href="temporarylink.com">
+                <a
+                  href={CloudPresentation}
+                  download="Intro to Cloud Computing.pdf"
+                >
                   <img
                     src={Cloud}
                     alt="Cloud Computing Workshop"

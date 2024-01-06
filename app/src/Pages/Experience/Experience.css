@@ -140,6 +140,12 @@
 .image {
   height: 100%;
   width: auto;
+  background-color: none;
+  border: none;
+}
+
+.image:hover {
+  opacity: 0.7;
 }
 
 .learn {

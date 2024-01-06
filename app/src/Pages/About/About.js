@@ -16,18 +16,17 @@ const About = () => {
           <p className="about-me-p">
             My name is Mark Rubin, a sophomore at Princeton University from
             Highland Park, New Jersey majoring in computer science in the school
-            of engineering. I entered STEM through a project that began my
-            freshman year of high school, combining two of my largest interests:
-            sports and data. The goal of the project was to build algorithms for
-            predicting the success of National Football League (NFL) draft
-            prospects. After three years of working on the project, I cold
-            emailed hundreds of NFL data analysts and received several responses
-            interested in the project I created, leading me to develop a report
-            for them on the 2022 Draft Class. Around that time, I took my first
-            computer science course, and my passion for data science naturally
-            extended into a love for computer science – I enjoyed that it is a
-            field where I am constantly learning and can build something from
-            nothing. <br></br>
+            of engineering. I entered STEM through an independent project that I
+            began in my freshman year of high school, combining two of my
+            largest interests: sports and data. The goal of the project was to
+            build algorithms for predicting the success of National Football
+            League (NFL) draft prospects. After three years of working on the
+            project, I connected with several NFL data analysts and developed a
+            report for them on the 2022 Draft Class. Around that time, I took my
+            first computer science course, and my passion for data science
+            naturally extended into a love for computer science – I enjoyed that
+            it is a field where I am constantly learning and can build something
+            from nothing. <br></br>
             <br></br>After graduating as Valedictorian of my high school class,
             I decided to attend Princeton University where I truly appreciate
             the variety of rigorous courses I have been able to take. While I am

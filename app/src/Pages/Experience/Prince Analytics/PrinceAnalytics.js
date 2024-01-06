@@ -2,6 +2,8 @@ import "../Modal.css";
 import X from "../../../Media/Black X.png";
 import DraftCover from "../../../Media/Draft Cover.png";
 import NBA from "../../../Media/Bufkin Report Cover.png";
+import Report from "../../../Media/PDFs/Keyonte George.pdf";
+import NFLReport from "../../../Media/PDFs/2022 Report.pdf";
 
 const PrinceAnalytics = ({ onClickFunction }) => {
   return (
@@ -43,7 +45,7 @@ const PrinceAnalytics = ({ onClickFunction }) => {
             </div>
             <div className="media-content">
               <div className="media-content-div">
-                <a href="temporarylink.com">
+                <a href={NFLReport} download="2022 Draft Report.pdf">
                   <img
                     src={DraftCover}
                     alt="NFL Draft Report Cover"
@@ -53,7 +55,7 @@ const PrinceAnalytics = ({ onClickFunction }) => {
                 <p>Click on picture to view report</p>
               </div>
               <div className="media-content-div">
-                <a href="temporarylink.com">
+                <a href={Report} download="Keyonte George Report.pdf">
                   <img
                     src={NBA}
                     alt="Kobe Bufkin Draft Report"
