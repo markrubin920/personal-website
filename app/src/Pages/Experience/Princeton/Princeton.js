@@ -31,6 +31,13 @@ const Princeton = ({ onClickFunction }) => {
                   developing my interests in software development, computer
                   architecture, renewable energy, finance and policy.
                 </li>
+                <li className="accomplishments-li">
+                  Relevant Coursework: Algorithms and Data Structures,
+                  Introduction to Programming Systems, Introduction to
+                  Contemporary Logic Design, Foundations of Engineering:
+                  Electricity, Magnetism, and Photonics, Foundations of
+                  Engineering: Multivariable Calculus
+                </li>
               </ul>
             </div>
             <div className="media-content">

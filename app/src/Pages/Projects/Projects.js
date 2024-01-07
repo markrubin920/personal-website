@@ -6,6 +6,7 @@ import Combine from "../../Media/CombineStats.png";
 import Draft from "../../Media/NFL Draft.png";
 import Web from "../../Media/Home Page.png";
 import Streamlit from "../../Media/Streamlit Dashboard.png";
+import ReportInfo from "../../Media/PDFs/Algorithms.pdf";
 import "../../Root/Root.css";
 import "./Projects.css";
 
@@ -21,7 +22,10 @@ const Projects = () => {
             <h1 className="title-a">Driving Simulator</h1>
             <h3 className="skills-a">Skills: Java, Java Swing</h3>
             <div className="link-div">
-              <a href="github.com" className="link-a">
+              <a
+                href="https://github.com/markrubin920/Driving-Simulator"
+                className="link-a"
+              >
                 Link to Repository
               </a>
             </div>
@@ -95,12 +99,7 @@ const Projects = () => {
           <div className="title-a-div">
             <h1 className="title-a">Princeton University Computer (PUnC)</h1>
             <h3 className="skills-a">Skills: Verilog, Hardware Design</h3>
-            <div className="link-div">
-              {/* <p>Repository Unavailable</p> */}
-              {/* <a href="github.com" className="link-a">
-                Link to Repository
-              </a> */}
-            </div>
+            <div className="link-div"></div>
           </div>
         </div>
       </section>
@@ -113,7 +112,11 @@ const Projects = () => {
             </h1>
             <h3 className="skills-a">Skills: Statistical Data Analysis</h3>
             <div className="link-div">
-              <a href="github.com" className="link-a">
+              <a
+                href={ReportInfo}
+                download="NFL Draft Algorithm Intformation - Mark Rubin.pdf"
+                className="link-a"
+              >
                 Link to Information
               </a>
             </div>
@@ -180,7 +183,10 @@ const Projects = () => {
             <h1 className="title-a">NFL Combine Data Webscraper</h1>
             <h3 className="skills-a">Skills: Python, Beautiful Soup Package</h3>
             <div className="link-div">
-              <a href="github.com" className="link-a">
+              <a
+                href="https://github.com/markrubin920/NFL-Combine-Webscraper"
+                className="link-a"
+              >
                 Link to Repository
               </a>
             </div>
@@ -194,7 +200,10 @@ const Projects = () => {
             <h1 className="title-a">Personal Website</h1>
             <h3 className="skills-a">Skills: React JS, Tailwind CSS</h3>
             <div className="link-div">
-              <a href="github.com" className="link-a">
+              <a
+                href="https://github.com/markrubin920/personal-website"
+                className="link-a"
+              >
                 Link to Repository
               </a>
             </div>
@@ -265,7 +274,10 @@ const Projects = () => {
               Skills: Python, STATA, Streamlit Package, Pandas Package
             </h3>
             <div className="link-div">
-              <a href="github.com" className="link-a">
+              <a
+                href="https://github.com/markrubin920/streamlit-github-dashboard"
+                className="link-a"
+              >
                 Link to Repository
               </a>
             </div>

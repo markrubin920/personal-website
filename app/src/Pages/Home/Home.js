@@ -116,7 +116,7 @@ const Home = () => {
             </li>
             <li>
               <img src={Github} alt="Github logo" className="temp-icon"></img>
-              <a href="github.com" className="contact">
+              <a href="https://github.com/markrubin920" className="contact">
                 GitHub: markrubin920
               </a>
             </li>

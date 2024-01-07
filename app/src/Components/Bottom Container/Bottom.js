@@ -16,7 +16,7 @@ const Bottom = () => {
           >
             LinkedIn: Mark Rubin
           </a>
-          <a href="github.com" className="social-element2">
+          <a href="https://github.com/markrubin920" className="social-element2">
             GitHub: markrubin920
           </a>
         </div>
