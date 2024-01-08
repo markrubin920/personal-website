@@ -43,7 +43,7 @@ const Contact = () => {
           <form ref={form} onSubmit={sendEmail}>
             <div className="name-input-div">
               <input
-                placeholder="Fist Name"
+                placeholder="First Name"
                 name="first_name"
                 className="input"
                 required
