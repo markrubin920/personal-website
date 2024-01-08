@@ -16,7 +16,7 @@ const Contact = () => {
         "service_uc5w0ob",
         "template_pqm4r3d",
         form.current,
-        process.env.EMAILJS_API_KEY
+        process.env.REACT_APP_EMAILJS_API_KEY
       )
       .then(
         (result) => {
