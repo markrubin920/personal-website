@@ -7,7 +7,7 @@ import "./Contact.css";
 
 // Contact me page
 const Contact = () => {
-  // API Call to EmailJS
+  // API Call to Email_JS
   const form = useRef();
 
   const sendEmail = (e) => {
