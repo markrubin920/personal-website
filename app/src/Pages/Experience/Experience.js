@@ -3,7 +3,7 @@ import Bottom from "../../Components/Bottom Container/Bottom";
 import FiservPic from "../../Media/Fiserv-Picture.jpg";
 import Workshop from "../../Media/Cloud-Workshop-Picture.jpg";
 import ExperienceContainer from "./ExperienceContainer.js";
-import DraftCover from "../../Media/Draft Cover.png";
+import DraftCover from "../../Media/Cover Page NFL.jpg";
 import SOFGroup from "../../Media/Scholars of Finance Group Picture.png";
 import PrincetonPicture from "../../Media/Princeton Picture.JPG";
 import TigerAppsPicture from "../../Media/TigerApps.png";
@@ -99,7 +99,7 @@ const Experience = () => {
                 image={Workshop}
                 date="9/23 - Present"
                 company="HackPrinceton"
-                description="Development Team Leader"
+                description="Development Team Leader and Software Engineer"
               />
             </div>
             <div className="column">

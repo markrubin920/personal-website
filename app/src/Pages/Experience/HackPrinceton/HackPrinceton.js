@@ -13,7 +13,8 @@ const HackPrinceton = ({ onClickFunction }) => {
           </header>
           <section className="role">
             <h1 className="role-h1">
-              Position: Development Team Leader (9/22 - Present)
+              Position: Development Team Leader and Software Engineer (9/23 -
+              Present)
             </h1>
           </section>
           <div className="content">

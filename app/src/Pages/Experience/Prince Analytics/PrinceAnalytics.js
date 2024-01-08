@@ -1,6 +1,6 @@
 import "../Modal.css";
 import X from "../../../Media/Black X.png";
-import DraftCover from "../../../Media/Draft Cover.png";
+import DraftCover from "../../../Media/Cover Page NFL.jpg";
 import NBA from "../../../Media/Bufkin Report Cover.png";
 import Report from "../../../Media/PDFs/Keyonte George.pdf";
 import NFLReport from "../../../Media/PDFs/2022 Report.pdf";
@@ -21,9 +21,9 @@ const PrinceAnalytics = ({ onClickFunction }) => {
               <h1 className="responsibilities-h1">Accomplishments</h1>
               <ul className="accomplishments-ul">
                 <li className="accomplishments-li">
-                  Founded a startup company focused on thinking about sports in
-                  a more analytical way; to make every decision with the numbers
-                  that matter.
+                  Founded a startup company focused on making data-driven
+                  decisions in sports to achieve better outcomes through the
+                  numbers that matter.
                 </li>
                 <li className="accomplishments-li">
                   Networked with industry professionals to receive consulting
