@@ -1,5 +1,6 @@
 import "./Experience.css";
 
+// Modularize containers for each experience
 const ExperienceContainer = ({
   onClickFunction,
   image,

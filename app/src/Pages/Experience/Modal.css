@@ -51,7 +51,7 @@
   align-items: center;
 }
 
-.fiserv {
+.company-name {
   position: absolute;
   top: 0;
   padding-top: 1.5vh;
@@ -188,7 +188,7 @@
     align-items: center;
   }
 
-  .fiserv {
+  .company-name {
     position: absolute;
     top: 0;
     font-size: 36px;
@@ -196,7 +196,6 @@
 
   .content {
     display: block;
-    /* flex-direction: row; */
   }
 
   .role {
@@ -325,7 +324,7 @@
     align-items: center;
   }
 
-  .fiserv {
+  .company-name {
     font-size: 36px;
   }
 
@@ -459,7 +458,7 @@
     align-items: center;
   }
 
-  .fiserv {
+  .company-name {
     font-size: 36px;
   }
 

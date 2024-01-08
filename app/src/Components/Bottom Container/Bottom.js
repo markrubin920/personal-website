@@ -1,5 +1,6 @@
 import "./Bottom.css";
 
+// Bottom container to be present at the bottom of each page
 const Bottom = () => {
   return (
     <footer className="footer">

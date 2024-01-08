@@ -10,6 +10,7 @@ import ReportInfo from "../../Media/PDFs/Algorithms.pdf";
 import "../../Root/Root.css";
 import "./Projects.css";
 
+// Projects list alternating between styles
 const Projects = () => {
   return (
     <div className="screen">

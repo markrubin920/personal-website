@@ -17,7 +17,9 @@ import SOF from "./SOF/SOF.js";
 import Princeton from "./Princeton/Princeton.js";
 import TigerApps from "./TigerApps/TigerApps.js";
 
+// Experience General Page
 const Experience = () => {
+  // Hooks for viewing modals
   const [showFiserv, setShowFiserv] = useState(false);
   const [showPA, setShowPA] = useState(false);
   const [showHP, setShowHP] = useState(false);
@@ -51,6 +53,7 @@ const Experience = () => {
 
   return (
     <div className="bg">
+      {/* Navigation */}
       <header className="nav-background">
         <Navigation />
       </header>
@@ -64,7 +67,9 @@ const Experience = () => {
       </section>
 
       <section className="exp">
+        {/* 3 Rows */}
         <div className="rows">
+          {/* Modals */}
           {showFiserv && <Fiserv onClickFunction={ToggleFiservModal} />}
           {showPA && <PrinceAnalytics onClickFunction={TogglePAModal} />}
           {showHP && <HackPrinceton onClickFunction={ToggleHPModal} />}

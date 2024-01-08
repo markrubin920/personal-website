@@ -2,13 +2,14 @@ import "../Modal.css";
 import X from "../../../Media/Black X.png";
 import PrincetonPicture from "../../../Media/Princeton Logo.png";
 
+// Modal for Princeton
 const Princeton = ({ onClickFunction }) => {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
         <div className="outer">
           <header className="headline-div">
-            <h1 className="fiserv">Princeton University</h1>
+            <h1 className="company-name">Princeton University</h1>
           </header>
           <section className="role">
             <h1 className="role-h1">
@@ -18,6 +19,7 @@ const Princeton = ({ onClickFunction }) => {
           </section>
           <div className="content">
             <div className="responsibilities">
+              {/* Accomplishments list */}
               <h1 className="responsibilities-h1">Accomplishments</h1>
               <ul className="accomplishments-ul">
                 <li className="accomplishments-li">
@@ -41,6 +43,7 @@ const Princeton = ({ onClickFunction }) => {
               </ul>
             </div>
             <div className="media-content">
+              {/* Media */}
               <div className="media-content-div">
                 <a href="temporarylink.com">
                   <img

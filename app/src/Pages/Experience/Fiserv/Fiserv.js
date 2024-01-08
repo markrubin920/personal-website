@@ -4,13 +4,14 @@ import Presentation from "../../../Media/EOI Presentation.png";
 import Interns from "../../../Media/Fiserv Group Picture.jpg";
 import EOI from "../../../Media/PDFs/EOI.pdf";
 
+// Modal about Fiserv Experience
 const Fiserv = ({ onClickFunction }) => {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
         <div className="outer">
           <header className="headline-div">
-            <h1 className="fiserv">Fiserv</h1>
+            <h1 className="company-name">Fiserv</h1>
           </header>
           <section className="role">
             <h1 className="role-h1">
@@ -21,6 +22,7 @@ const Fiserv = ({ onClickFunction }) => {
           <div className="content">
             <div className="responsibilities">
               <h1 className="responsibilities-h1">Accomplishments</h1>
+              {/* List of accomplishments */}
               <ul className="accomplishments-ul">
                 <li className="accomplishments-li">
                   Proposed and built a ServiceNow Ticket fulfillment system to
@@ -56,6 +58,7 @@ const Fiserv = ({ onClickFunction }) => {
                 </li>
               </ul>
             </div>
+            {/* Media Content */}
             <div className="media-content">
               <div className="media-content-div">
                 <a href={EOI} download="End-of-Internship-Presentation.pdf">
@@ -79,6 +82,7 @@ const Fiserv = ({ onClickFunction }) => {
               </div>
             </div>
           </div>
+          {/* Exit button */}
           <footer className="button-div">
             <button onClick={onClickFunction} className="ex-button">
               <img src={X} alt="Black X" className="ex-button-img"></img>

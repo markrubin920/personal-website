@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   position: fixed;
   margin: 0;
   padding: 0;
@@ -8,5 +9,4 @@ html, body {
   scroll-behavior: smooth;
   overflow-y: auto;
   font-family: Tahoma;
-  /* font-weight: bold; */
 }

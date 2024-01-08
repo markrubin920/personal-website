@@ -8,9 +8,11 @@ import Mail from "../../Media/Mail-mini-logo.png";
 import LinkedIn from "../../Media/Linkedin-mini-logo.png";
 import { NavLink } from "react-router-dom";
 
+// Home Page
 const Home = () => {
   return (
     <div className="app">
+      {/* Top Container with Navigation and Picture of Me */}
       <section className="top-container">
         <Navigation />
         <div className="tc-writing">
@@ -22,6 +24,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* About Container with information on myself */}
       <section className="about-container">
         <div className="about-div">
           <p className="about-text">
@@ -34,6 +38,7 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Experience and Project Containers */}
       <section className="exp-container">
         <div className="exp-div">
           <div className="writing">
@@ -78,6 +83,7 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Smaller About Me Section */}
       <section className="quote-section">
         <p className="quote-text">
           My interests in technology span a variety of sectors, including full
@@ -86,6 +92,8 @@ const Home = () => {
           more about me and I look forward to connecting!
         </p>
       </section>
+
+      {/* Contact Me Section */}
       <section className="contact-container">
         <div className="get-in-touch">
           <h2 className="gt-text">Let's get in touch!</h2>
@@ -124,6 +132,7 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Footer */}
       <Bottom />
     </div>
   );

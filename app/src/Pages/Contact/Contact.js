@@ -5,7 +5,9 @@ import Bottom from "../../Components/Bottom Container/Bottom";
 import "../../Root/Root.css";
 import "./Contact.css";
 
+// Contact me page
 const Contact = () => {
+  // API Call to EmailJS
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -37,6 +39,7 @@ const Contact = () => {
       <section className="contact-me-container">
         <div className="contact-me-card">
           <h1 className="contact-me-h1">Contact Me</h1>
+          {/* Contact Form */}
           <form ref={form} onSubmit={sendEmail}>
             <div className="name-input-div">
               <input

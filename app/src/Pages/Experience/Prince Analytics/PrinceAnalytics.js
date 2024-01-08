@@ -5,13 +5,14 @@ import NBA from "../../../Media/Bufkin Report Cover.png";
 import Report from "../../../Media/PDFs/Keyonte George.pdf";
 import NFLReport from "../../../Media/PDFs/2022 Report.pdf";
 
+// Modal for PrinceAnalytics
 const PrinceAnalytics = ({ onClickFunction }) => {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
         <div className="outer">
           <header className="headline-div">
-            <h1 className="fiserv">Prince Analytics Sports Consulting</h1>
+            <h1 className="company-name">Prince Analytics Sports Consulting</h1>
           </header>
           <section className="role">
             <h1 className="role-h1">Position: Founder & CEO (2/22 - 11/23)</h1>
@@ -19,6 +20,7 @@ const PrinceAnalytics = ({ onClickFunction }) => {
           <div className="content">
             <div className="responsibilities">
               <h1 className="responsibilities-h1">Accomplishments</h1>
+              {/* List of accomplishments */}
               <ul className="accomplishments-ul">
                 <li className="accomplishments-li">
                   Founded a startup company focused on making data-driven
@@ -43,6 +45,7 @@ const PrinceAnalytics = ({ onClickFunction }) => {
                 </li>
               </ul>
             </div>
+            {/* Media Content */}
             <div className="media-content">
               <div className="media-content-div">
                 <a href={NFLReport} download="2022 Draft Report.pdf">

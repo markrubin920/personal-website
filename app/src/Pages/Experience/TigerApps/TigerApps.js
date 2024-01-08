@@ -2,13 +2,14 @@ import "../Modal.css";
 import X from "../../../Media/Black X.png";
 import TigerAppsHome from "../../../Media/TigerApps Home.png";
 
+// TigerApps Modal
 const TigerApps = ({ onClickFunction }) => {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
         <div className="outer">
           <header className="headline-div">
-            <h1 className="fiserv">TigerApps</h1>
+            <h1 className="company-name">TigerApps</h1>
           </header>
           <section className="role">
             <h1 className="role-h1">
@@ -19,6 +20,7 @@ const TigerApps = ({ onClickFunction }) => {
             <div className="responsibilities">
               <h1 className="responsibilities-h1">Accomplishments</h1>
               <ul className="accomplishments-ul">
+                {/* Responsibilities */}
                 <li className="accomplishments-li">
                   Maintaining a suite of 16 web applications for Princeton
                   students, contributing in areas such as application hosting
@@ -33,6 +35,7 @@ const TigerApps = ({ onClickFunction }) => {
               </ul>
             </div>
             <div className="media-content">
+              {/* Modal */}
               <div className="media-content-div">
                 <a href="https://tigerapps.org/">
                   <img

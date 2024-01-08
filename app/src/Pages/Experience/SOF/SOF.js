@@ -2,13 +2,14 @@ import "../Modal.css";
 import X from "../../../Media/Black X.png";
 import SOFLogo from "../../../Media/SOF-Logo.jpg";
 
+// Scholars of Finance Modal
 const SOF = ({ onClickFunction }) => {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
         <div className="outer">
           <header className="headline-div">
-            <h1 className="fiserv">Scholars of Finance</h1>
+            <h1 className="company-name">Scholars of Finance</h1>
           </header>
           <section className="role">
             <h1 className="role-h1">
@@ -17,6 +18,7 @@ const SOF = ({ onClickFunction }) => {
           </section>
           <div className="content">
             <div className="responsibilities">
+              {/* Accomplishments List */}
               <h1 className="responsibilities-h1">Accomplishments</h1>
               <ul className="accomplishments-ul">
                 <li className="accomplishments-li">
@@ -35,6 +37,7 @@ const SOF = ({ onClickFunction }) => {
               </ul>
             </div>
             <div className="media-content">
+              {/* Media */}
               <div className="media-content-div">
                 <a href="https://scholarsoffinance.org/">
                   <img

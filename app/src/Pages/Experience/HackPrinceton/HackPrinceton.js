@@ -3,13 +3,14 @@ import X from "../../../Media/Black X.png";
 import Cloud from "../../../Media/Cloud Workshop.png";
 import CloudPresentation from "../../../Media/PDFs/Intro to Cloud Computing.pdf";
 
+// Modal about HackPrinceton Experience
 const HackPrinceton = ({ onClickFunction }) => {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
         <div className="outer">
           <header className="headline-div">
-            <h1 className="fiserv">HackPrinceton</h1>
+            <h1 className="company-name">HackPrinceton</h1>
           </header>
           <section className="role">
             <h1 className="role-h1">
@@ -20,6 +21,7 @@ const HackPrinceton = ({ onClickFunction }) => {
           <div className="content">
             <div className="responsibilities">
               <h1 className="responsibilities-h1">Accomplishments</h1>
+              {/* List of accomplishments */}
               <ul className="accomplishments-ul">
                 <li className="accomplishments-li">
                   Collaborating with a team of five developers to rewrite the
@@ -36,6 +38,7 @@ const HackPrinceton = ({ onClickFunction }) => {
                 </li>
               </ul>
             </div>
+            {/* Media content */}
             <div className="media-content">
               <div className="media-content-div">
                 <a
