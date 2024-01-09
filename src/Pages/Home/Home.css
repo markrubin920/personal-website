@@ -18,6 +18,7 @@ body {
   background-image: url("../../Media/Blair-Arch.jpg");
   background-size: cover;
   background-position: center;
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 .tc-writing {
@@ -76,6 +77,7 @@ body {
     background-image: url("../../Media/Tiger-Pic-Iphone.jpg");
     background-size: cover;
     background-position: center;
+    animation: fadeIn 1.5s ease-in-out;
   }
 
   .hello {
@@ -191,7 +193,7 @@ body {
 }
 
 .learn-more-div a {
-  font-family: Tahoma, 'Helvetica Neue', Arial, sans-serif; 
+  font-family: Tahoma, "Helvetica Neue", Arial, sans-serif;
   font-size: 22px;
   color: white;
   text-decoration: none;
@@ -280,7 +282,7 @@ body {
   }
 
   .learn-more-div a {
-    font-family: Tahoma, 'Helvetica Neue', Arial, sans-serif; 
+    font-family: Tahoma, "Helvetica Neue", Arial, sans-serif;
     font-size: 22px;
     color: white;
     text-decoration: none;
@@ -422,7 +424,7 @@ body {
 }
 
 .contact a {
-  font-family: Tahoma, 'Helvetica Neue', Arial, sans-serif; 
+  font-family: Tahoma, "Helvetica Neue", Arial, sans-serif;
   font-size: 22px;
   color: black;
   padding: 10px;
@@ -465,7 +467,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 5vw;
+    padding-left: 2vw;
     padding-bottom: 3vh;
   }
 
@@ -481,7 +483,7 @@ body {
   }
 
   .contact a {
-    font-family: Tahoma, 'Helvetica Neue', Arial, sans-serif; 
+    font-family: Tahoma, "Helvetica Neue", Arial, sans-serif;
     font-size: 22px;
     color: black;
     padding: 10px;
