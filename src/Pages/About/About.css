@@ -33,18 +33,17 @@
 }
 
 .image-section {
-  flex: 1;
   display: flex;
+  flex: 1 1;
+  align-items: flex-start;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .headshot-pic {
   animation: fadeIn 1.5s ease-in-out;
+  object-fit: contain;
   padding-top: 5vh;
-  height: fit-content;
   width: 90%;
-  /* max-height: 50vh; */
 }
 
 .about-me-h1 {

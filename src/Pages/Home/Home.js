@@ -17,7 +17,7 @@ const Home = () => {
         <Navigation />
         <div className="tc-writing">
           <h2 className="hello">
-            Hi, my name is<br></br>Mark Rubin
+            Hi my name is<br></br>Mark Rubin
           </h2>
           <div className="about-button-div">
             <NavLink to="/about">About Me</NavLink>
