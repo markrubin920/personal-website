@@ -102,10 +102,17 @@ const Navigation = () => {
     );
   } else {
     return (
-      <div className="nav-icon-div">
-        <button onClick={toggleMenu} className="button-bkg">
-          <img src={NavIcon} alt="Navigation icon" className="nav-icon"></img>
-        </button>
+      <div>
+        <div className="logo-div-vertical">
+          <NavLink to="/home" className="logo">
+            Mark Rubin
+          </NavLink>
+        </div>
+        <div className="nav-icon-div">
+          <button onClick={toggleMenu} className="button-bkg">
+            <img src={NavIcon} alt="Navigation icon" className="nav-icon"></img>
+          </button>
+        </div>
       </div>
     );
   }

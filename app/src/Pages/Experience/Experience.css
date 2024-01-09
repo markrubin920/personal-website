@@ -13,6 +13,15 @@
 
 @media (max-height: 780px) {
   .nav-background {
+    padding-top: 1vh;
+    min-height: fit-content;
+    height: 10vh;
+    background-color: #253551;
+  }
+}
+
+@media (max-height: 700px) {
+  .nav-background {
     padding-top: 2vh;
     min-height: fit-content;
     height: 12vh;

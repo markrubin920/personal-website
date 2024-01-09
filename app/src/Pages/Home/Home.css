@@ -15,7 +15,7 @@ body {
   position: relative;
   height: 80vh;
   width: 100%;
-  background-image: url("../../Media/Blair-Arch.jpg");
+  background-image: url("../../Media/Blair-Arch.JPG");
   background-size: cover;
   background-position: center;
 }
@@ -230,7 +230,7 @@ body {
   justify-content: center;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 950px) {
   .exp-div {
     flex-direction: column;
     align-items: center;
