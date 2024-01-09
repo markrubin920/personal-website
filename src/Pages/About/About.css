@@ -1,0 +1,79 @@
+.nav-background {
+  min-height: fit-content;
+  height: 8vh;
+  background-color: #253551;
+}
+
+@media (max-height: 780px) {
+  .nav-background {
+    padding-top: 1vh;
+    min-height: fit-content;
+    height: 10vh;
+    background-color: #253551;
+  }
+}
+
+@media (max-height: 700px) {
+  .nav-background {
+    padding-top: 2vh;
+    min-height: fit-content;
+    height: 12vh;
+    background-color: #253551;
+  }
+}
+
+.about-me-container {
+  min-height: 70vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-section {
+  flex: 1;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.headshot-pic {
+  animation: fadeIn 1.5s ease-in-out;
+  padding-top: 5vh;
+  height: fit-content;
+  width: 90%;
+  /* max-height: 50vh; */
+}
+
+.about-me-h1 {
+  margin-top: 3vh;
+  text-align: center;
+  width: 100%;
+  font-size: 36px;
+}
+
+.about-me-p {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 2vh;
+  font-size: 20px;
+  margin-bottom: 2vh;
+}
+
+@media (max-width: 768px) {
+  .about-me-container {
+    flex-direction: column;
+  }
+
+  .text-section,
+  .image-section {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .headshot-pic {
+    max-height: 45vh;
+  }
+}
