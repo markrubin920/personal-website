@@ -17,7 +17,7 @@ const About = () => {
           <p className="about-me-p">
             My name is Mark Rubin, a sophomore at Princeton University from
             Highland Park, New Jersey majoring in computer science in the school
-            of engineering. I entered STEM through an independent project that I
+            of engineering. I entered STEM through an independent project that
             began in my freshman year of high school, combining two of my
             largest interests: sports and data. The goal of the project was to
             build algorithms for predicting the success of National Football
@@ -56,9 +56,7 @@ const About = () => {
       </div>
       <foooter>
         <Bottom />
-        
       </foooter>
-      
     </div>
   );
 };
