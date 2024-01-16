@@ -1,8 +1,6 @@
 import "../Modal.css";
 import X from "../../../Media/Black X.png";
-import Presentation from "../../../Media/EOI Presentation.png";
 import Interns from "../../../Media/Fiserv Group Picture.jpg";
-import EOI from "../../../Media/PDFs/EOI.pdf";
 
 // Modal about Fiserv Experience
 const Fiserv = ({ onClickFunction }) => {
@@ -60,17 +58,6 @@ const Fiserv = ({ onClickFunction }) => {
             </div>
             {/* Media Content */}
             <div className="media-content">
-              <div className="media-content-div">
-                <a href={EOI} download="End-of-Internship-Presentation.pdf">
-                  <img
-                    src={Presentation}
-                    alt="End of Internship Presentation"
-                    className="presentation-picture"
-                  ></img>
-                </a>
-                <p>Click on picture to view presentation</p>
-              </div>
-              <div></div>
               <div className="media-content-div">
                 <div className="intern-picture-div">
                   <img
