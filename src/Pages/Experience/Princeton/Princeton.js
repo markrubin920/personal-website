@@ -1,7 +1,7 @@
 import "../Modal.css";
 import X from "../../../Media/Black X.png";
 import PrincetonPicture from "../../../Media/Princeton Logo.png";
-import Transcript from "../../../Media/PDFs/Transcript.pdf";
+// import Transcript from "../../../Media/PDFs/Transcript.pdf";
 
 // Modal for Princeton
 const Princeton = ({ onClickFunction }) => {
@@ -46,14 +46,14 @@ const Princeton = ({ onClickFunction }) => {
             <div className="media-content">
               {/* Media */}
               <div className="media-content-div">
-                <a href={Transcript} download="Transcript.pdf">
-                  <img
-                    src={PrincetonPicture}
-                    alt="NFL Draft Report Cover"
-                    className="presentation-picture"
-                  ></img>
-                </a>
-                <p>Click on picture to view transcript</p>
+                {/* <a href={Transcript} download="Transcript.pdf"> */}
+                <img
+                  src={PrincetonPicture}
+                  alt="Transcript"
+                  className="presentation-picture"
+                ></img>
+                {/* </a> */}
+                {/* <p>Click on picture to view transcript</p> */}
               </div>
             </div>
           </div>
