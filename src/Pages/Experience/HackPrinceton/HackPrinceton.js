@@ -24,8 +24,9 @@ const HackPrinceton = ({ onClickFunction }) => {
               {/* List of accomplishments */}
               <ul className="accomplishments-ul">
                 <li className="accomplishments-li">
-                  Collaborating with a team of five developers to rewrite the
-                  hackathon’s application website using React and Next JS.
+                  Leading and collaborating with an agile team of eight
+                  developers to rewrite the hackathon’s application website
+                  using React JS and Flask.
                 </li>
                 <li className="accomplishments-li">
                   Delivered a 45-minute presentation on cloud computing at the
